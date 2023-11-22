@@ -4,7 +4,7 @@ export default function Button(props)
     
     return(
         <>
-        <button>{a.text}</button>
+        <button>{props.text}</button>
         </>
     )
 }
