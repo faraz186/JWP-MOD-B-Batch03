@@ -1,9 +1,10 @@
-export default function Button(a)
+export default function Button(props)
 {
-    console.log(a)
+    console.log(props);
+    
     return(
         <>
-        <button>{a.janisar}</button>
+        <button>{a.text}</button>
         </>
     )
 }
