@@ -15,7 +15,7 @@ function App()
 
       <h1 className="borderHeading text-6xl text-blue-500 font-bold underline">
         Hello world!
-      </h1>
+      </h1> 
 
       <h1 style={{textAlign:"center"}}>This is demo heading of react application</h1>
 
