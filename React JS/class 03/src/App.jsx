@@ -1,7 +1,6 @@
 import Cards from "./components/CMCards"
 import CMButton from "./components/CMButton"
 
-
 function App() 
 {
   return (
@@ -29,7 +28,7 @@ function App()
       <CMButton type="profile" />
       <CMButton type="results" />
       <CMButton type="output" />
-    <CMButton type="message" />
+      <CMButton type="message" />
 
     </div>
   )
