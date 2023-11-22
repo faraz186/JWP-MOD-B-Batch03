@@ -17,17 +17,17 @@ function App()
 
       <h1>The Square root of 25 {25*25}</h1>
 
-      <Button janisar="sign up"/>
+      <Button text="sign up"/>
 
-      <Button janisar="logout"/>
+      <Button text="logout"/>
 
-      <Button janisar="feedback"/>
+      <Button text="feedback"/>
 
-      <Button janisar="get Courses"/>
+      <Button text="get Courses"/>
 
-      <Button janisar="Submit"/>
+      <Button text="Submit"/>
 
-      <Button janisar="sign up"/>
+      <Button text="sign up"/>
 
     </>
   )
