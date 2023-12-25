@@ -35,7 +35,7 @@ function App() {
       rollNo: 125,
       class1: 11,
       inst: "SAI"
-    },
+    },               
     {
       name: "JKL",
       fName: "PQR",
