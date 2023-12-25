@@ -13,7 +13,7 @@ import user5 from './images/user 5.jpeg'
 function App() {
   let arr = [
     {
-      name: "ABC",
+      name: "ABC",         
       fName: "XYZ",
       age: 17,
       rollNo: 124,
