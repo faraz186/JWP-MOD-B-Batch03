@@ -111,7 +111,7 @@ function App() {
       <Input typeInput="email" valueInput="XYZ@gamil.com" onChangeInput={() => { alert("XYZ@gamil.com") }} />
       <Input typeInput="date" valueInput="04/30/2006" onChangeInput={() => { alert("04/30/2006") }} />
 
-
+                      
       <Button ButtonLabel="ABC" ButtonClick={() => { alert("ABC") }} />
       <Button ButtonLabel="DEF" ButtonClick={() => { alert("DEF") }} />
       <Button ButtonLabel="GHI" ButtonClick={() => { alert("GHI") }} />
