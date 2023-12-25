@@ -1,4 +1,4 @@
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'                
 import './App.css';   
 import Table from './components/Table'         
 import Button from './components/Button'         
