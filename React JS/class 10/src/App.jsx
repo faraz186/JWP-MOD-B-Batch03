@@ -23,7 +23,7 @@ function App() {
     {
       name: "DEF",
       fName: "UVW",
-      age: 17,
+      age: 17,            
       rollNo: 123,
       class1: 11,
       inst: "SAI"
