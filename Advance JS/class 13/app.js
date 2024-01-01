@@ -8,7 +8,6 @@ const findValue = cities.find((value, index) => {
 console.log("findValue", findValue)
 
 
-
 const stdArr = [{ name: "Jaffar", age: 15, }, { name: "Sufiyan", age: 32, }, { name: "Bilal", age: 16, },]
 
 
