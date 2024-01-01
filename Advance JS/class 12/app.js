@@ -1,6 +1,5 @@
 console.log("HELLO WORLD")
 
-
 var age = 40
 if (age === 20) {
     console.log("true")
@@ -91,96 +90,93 @@ for (var  value of array) {
 }
 
 
-// const obj = {
-//     name: "jaffar",
-//     age: 22,
-//     gender: "male",
-//     subjects: ["html", "css"]
-// }
+const obj = {
+    name: "jaffar",
+    age: 22,
+    gender: "male",
+    subjects: ["html", "css"]
+}
 
-// console.log(obj.name)
-// console.log(obj["name"])
+console.log(obj.name)
+console.log(obj["name"])
 
-// for(var keys in obj){
-//         console.log(obj[keys])
-// }
-
-
-
-// var cities = ["karachi", "lahore", "multan", "islamabad", "lahore"]
-
-// const valueCheck = cities.find((value, index, array) => {
-//     // console.log(value, index, array)
-//     if (value === "lahore") {
-//         console.log(index)
-//         return true
-//     }
-// })
-
-
-// const valueCheck = cities.findIndex((value, index, array) =>
-//     value === "delhi"
-// )
-// if (valueCheck) {
-//     console.log("lahore exist")
-// } else {
-//     console.log("lahore not exist")
-// }
-// if (valueCheck !== -1) {
-//     console.log("lahore exist")
-// } else {
-//     console.log("lahore not exist")
-// }
-// console.log(valueCheck, "valueCheck")
+for(var keys in obj){
+        console.log(obj[keys])
+}
 
 
 
+var cities = ["karachi", "lahore", "multan", "islamabad", "lahore"]
+
+const valueCheck = cities.find((value, index, array) => {
+    // console.log(value, index, array)
+    if (value === "lahore") {
+        console.log(index)
+        return true
+    }
+})
 
 
-// var arr = [0,1,2,3,4,5,6,7,8,9]
-// const newArr = arr.map((value, index, array) => {
-//     // console.log("map para" , value , index , array)
-//     return value * 2
+const valueCheck = cities.findIndex((value, index, array) =>
+    value === "delhi"
+)
+if (valueCheck) {
+    console.log("lahore exist")
+} else {
+    console.log("lahore not exist")
+}
+if (valueCheck !== -1) {
+    console.log("lahore exist")
+} else {
+    console.log("lahore not exist")
+}
+console.log(valueCheck, "valueCheck")
 
 
-// })
-// console.log(arr)
-// console.log("newArr", newArr)
+
+var arr = [0,1,2,3,4,5,6,7,8,9]
+const newArr = arr.map((value, index, array) => {
+    // console.log("map para" , value , index , array)
+    return value * 2
 
 
-// var arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-// var newArr = arr.filter((value, index) => {
-//                 if(value % 2 === 0){
-//                    return value 
-//                 }
-// })
-
-// var  cities=["karachi", "lahore", "multan", "islamabad", "lahore", "lahore"]
-// var newArr = cities.filter((value, index) => {
-//     if (value === "lahore") {
-//         return false
-//     }
-// })
-// console.log("cities", cities)
-// console.log(newArr)
+})
+console.log(arr)
+console.log("newArr", newArr)
 
 
-// var cities = ["karachi", "lahore", "multan", "islamabad", "lahore", "lahore"]
+var arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+var newArr = arr.filter((value, index) => {
+                if(value % 2 === 0){
+                   return value 
+                }
+})
 
-// var newArr = cities.map((value, index) => {
-//     if (value === "lahore") {
-//         return true
-//     }
-// })
+var  cities=["karachi", "lahore", "multan", "islamabad", "lahore", "lahore"]
+var newArr = cities.filter((value, index) => {
+    if (value === "lahore") {
+        return false
+    }
+})
+console.log("cities", cities)
+console.log(newArr)
 
 
-// var newArr = cities.filter((value, index) => {
-//     if (value === "lahore") {
-//         return true
-//     }
-// })
-// console.log(newArr)
+var cities = ["karachi", "lahore", "multan", "islamabad", "lahore", "lahore"]
 
+var newArr = cities.map((value, index) => {
+    if (value === "lahore") {
+        return true
+    }
+})
+
+
+var newArr = cities.filter((value, index) => {
+    if (value === "lahore") {
+        return true
+    }
+})
+console.log(newArr)
 
 
 var arr = [1, 2, 3, 45, 6, 78]
