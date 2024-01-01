@@ -77,11 +77,7 @@ function add(num1, num2) {
     console.log("add" + (num1 + num2))
 }
 
-
-// add(200, 300)
-
-
-
+add(200, 300)
 
 
 var arr = ["karachi"]
@@ -95,6 +91,5 @@ var obj = {
     }
 
 }
-
 
 console.log(obj.getCity())
