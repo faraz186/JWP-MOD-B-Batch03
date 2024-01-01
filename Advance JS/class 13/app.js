@@ -56,12 +56,12 @@ console.log("newArr", newArr)
 
 
 
-// var str = "Jaffar Aman"
-// var b = str
+var str = "Jaffar Aman"
+var b = str
 
-// str = "Jaffar"
-// console.log("str", str)
-// console.log("b", b)
+str = "Jaffar"
+console.log("str", str)
+console.log("b", b)
 
 
 // const arr = [1, 2, 3]   // reference = 420
