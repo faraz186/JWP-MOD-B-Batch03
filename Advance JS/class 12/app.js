@@ -15,26 +15,25 @@ if (age >= 20  && age<=50) {
 }
 
 
-// var age = 40
-// // var check = age === 20 ? "true" : "false"
-// var check = age >= 20 && age <= 50 ? "true" : "false"
+var age = 40
+// var check = age === 20 ? "true" : "false"
+var check = age >= 20 && age <= 50 ? "true" : "false"
 
-// console.log(check)
+console.log(check)
 
 
+var age = 25
+var gender = "female"
 
-// var age = 25
-// var gender = "female"
-
-// if (age >= 20 && age <= 40) {
-//     if (gender === "male") {
-//         console.log("allow")
-//     } else {
-//         console.log("only boys allow")
-//     }
-// } else {
-//     console.log("age not equal 20")
-// }
+if (age >= 20 && age <= 40) {
+    if (gender === "male") {
+        console.log("allow")
+    } else {
+        console.log("only boys allow")
+    }
+} else {
+    console.log("age not equal 20")
+}
 
 
 // var check = age >= 20 && age <= 40 ?
