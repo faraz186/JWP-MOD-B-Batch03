@@ -55,7 +55,6 @@ console.log("newArr", newArr)
 // .) function
 
 
-
 var str = "Jaffar Aman"
 var b = str
 
