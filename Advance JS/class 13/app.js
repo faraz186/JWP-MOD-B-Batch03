@@ -109,7 +109,3 @@ const promise = new Promise((resolve, reject) => {
         console.log("reject", reject)
 
     })
-
-
-
-
