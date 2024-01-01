@@ -80,17 +80,16 @@ const foo = (num1, num2, num3, ...args) => {
 foo(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
 
-// console.log("HELLO WORLD 1")
+console.log("HELLO WORLD 1")
 
-// setTimeout(() => {
-//     console.log("run after 2 sec")
-//     console.log("HELLO WORLD 2")
+setTimeout(() => {
+    console.log("run after 2 sec")
+    console.log("HELLO WORLD 2")
 
-// }, 2000)
+}, 2000)
 
 
-// console.log("HELLO WORLD 3")
-
+console.log("HELLO WORLD 3")
 
 
 // const promise = new Promise((resolve, reject) => {
