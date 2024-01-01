@@ -72,14 +72,12 @@ console.log("arr", arr)
 console.log("b", b)
 
 
-// const foo = (num1, num2, num3, ...args) => {
-//     console.log(args, "args")
-//     console.log("foo", num1, num2)
-// }
+const foo = (num1, num2, num3, ...args) => {
+    console.log(args, "args")
+    console.log("foo", num1, num2)
+}
 
-// foo(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-
-
+foo(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
 
 // console.log("HELLO WORLD 1")
