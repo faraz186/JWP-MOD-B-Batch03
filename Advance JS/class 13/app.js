@@ -19,14 +19,14 @@ const filterStd = stdArr.filter((value, index) => {
 console.log("filterStd", filterStd)
 
 
-// const filterValue = cities.filter((value, index) => {
-//     console.log(value)
-//     if (value === "karachi") {
-//         return true
-//     }
-// })
+const filterValue = cities.filter((value, index) => {
+    console.log(value)
+    if (value === "karachi") {
+        return true
+    }
+})
 
-// console.log("filterValue", filterValue)
+console.log("filterValue", filterValue)
 
 // var cities = ["karachi", "lahore", "Multan", "islamabad", "karachi"]
 // var cities = [1, 2, 3, 45, 6, 78]
