@@ -40,17 +40,19 @@ console.log("cities", cities)
 console.log("newArr", newArr)
 
 
-// primitive
-// String
-// Number
-// null
-// undefined
-// Boolean
+// primitive ata type
 
-// non primitive
-// array
-// Object
-// function
+// .) String
+// .) Number
+// .) null
+// .) undefined
+// .) Boolean
+
+// non primitive data type
+
+// .) array
+// .) Object
+// .) function
 
 
 
