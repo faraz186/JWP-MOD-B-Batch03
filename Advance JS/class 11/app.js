@@ -40,44 +40,42 @@ var fruit3 = "peach";
 var fruits = ["apple", "mango", "kuch bhi", "peach",]
 console.log(fruits[1])
 
-// // fruits[3] = "kuch bhi"
-// console.log(fruits)
+// fruits[3] = "kuch bhi"
+console.log(fruits)
 
-// var copy = fruits.slice(0, -2)
-// console.log(copy)
+var copy = fruits.slice(0, -2)
+console.log(copy)
 
 // pop push
 // shift unshift
 
 
-// fruits.splice(2, 0, "apple")
-// console.log(fruits)
+fruits.splice(2, 0, "apple")
+console.log(fruits)
 
 // var arr = 
 
+var num1 = 20
+var num2 = 50
 
-
-// var num1 = 20
-// var num2 = 50
-
-// var add = num1 + num2
-// console.log(add)
+var add = num1 + num2
+console.log(add)
 
 // 100 + 50
 
 
-// function foo(){
-//     console.log("hello world")
+function foo(){
+    console.log("hello world")
 
-// }
-// foo()
-// foo()
-// foo()
+}
+foo()
+foo()
+foo()
 
 
-// function add(num1, num2) {
-//     console.log("add" + (num1 + num2))
-// }
+function add(num1, num2) {
+    console.log("add" + (num1 + num2))
+}
 
 
 // add(200, 300)
