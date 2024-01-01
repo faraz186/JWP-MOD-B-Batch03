@@ -1,58 +1,44 @@
-// console.log("HELLO WORLD")
+console.log("HELLO WORLD")
 
 
-// var userName ="jawan pakistan";
-// console.log(userName)
-// userName = "jaffar aman"
-// console.log(userName)
+var userName ="jawan pakistan";
+console.log(userName)
+userName = "jaffar aman"
+console.log(userName)
 
 
+var age = "18"  //string
 
+if (age == 18) {
+    console.log("allow")
+} else {
+    console.log("NOt Allow")
+}
 
+var bool = false
 
+if (!bool) {
+    console.log("false")
+} else {
+    console.log("true")
 
-
-// var age = "18"  //string
-
-// if (age == 18) {
-//     console.log("allow")
-// } else {
-//     console.log("NOt Allow")
-// }
-
-
-
-// var bool = false
-
-
-// if (!bool) {
-//     console.log("false")
-// } else {
-//     console.log("true")
-
-// }
-
-
-
+}
 
 // var
 // condition
 
 
+for(var  i = 1 ; i <= 10 ; i++){
+        console.log(i)
+}
 
 
-// for(var  i = 1 ; i <= 10 ; i++){
-//         console.log(i)
-// }
-
-
-
-// var fruit1 = "apple";
-// var fruit2 = "mango";
-// var fruit3 = "peach";
+var fruit1 = "apple";
+var fruit2 = "mango";
+var fruit3 = "peach";
 
 var fruits = ["apple", "mango", "kuch bhi", "peach",]
-// console.log(fruits[1])
+console.log(fruits[1])
 
 // // fruits[3] = "kuch bhi"
 // console.log(fruits)
