@@ -1,18 +1,20 @@
-// console.log("HELLO WORLD")
+console.log("HELLO WORLD")
 
 
-// var age = 40
-// if (age === 20) {
-//     console.log("true")
-// } else {
-//     console.log("false")
-// }
+var age = 40
+if (age === 20) {
+    console.log("true")
+} else {
+    console.log("false")
+}
 
-// if (age >= 20  && age<=50) {
-//     console.log("true")
-// } else {
-//     console.log("false")
-// }
+if (age >= 20  && age<=50) {
+    console.log("true")
+} else {
+    console.log("false")
+}
+
+
 // var age = 40
 // // var check = age === 20 ? "true" : "false"
 // var check = age >= 20 && age <= 50 ? "true" : "false"
