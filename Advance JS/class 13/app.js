@@ -63,14 +63,13 @@ console.log("str", str)
 console.log("b", b)
 
 
-// const arr = [1, 2, 3]   // reference = 420
-// const b = [...arr]  //420
+const arr = [1, 2, 3]   // reference = 420
+const b = [...arr]  //420
 
-// arr.push(4)
+arr.push(4)
 
-// console.log("arr", arr)
-// console.log("b", b)
-
+console.log("arr", arr)
+console.log("b", b)
 
 
 // const foo = (num1, num2, num3, ...args) => {
