@@ -92,23 +92,23 @@ setTimeout(() => {
 console.log("HELLO WORLD 3")
 
 
-// const promise = new Promise((resolve, reject) => {
-//     const isZinger = true
-//     if (isZinger) {
-//         resolve(
-//             "Thanks faraz bhai "
-//         )
-//     } else {
-//         reject("yeh kya bt howi boss!")
-//     }
-// })
-//     .then((resolve) => {
-//         console.log("resolve", resolve)
-//     })
-//     .catch((reject) => {
-//         console.log("reject", reject)
+const promise = new Promise((resolve, reject) => {
+    const isZinger = true
+    if (isZinger) {
+        resolve(
+            "Thanks faraz bhai "
+        )
+    } else {
+        reject("yeh kya bt howi boss!")
+    }
+})
+    .then((resolve) => {
+        console.log("resolve", resolve)
+    })
+    .catch((reject) => {
+        console.log("reject", reject)
 
-//     })
+    })
 
 
 
