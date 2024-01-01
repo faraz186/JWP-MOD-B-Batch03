@@ -36,58 +36,61 @@ if (age >= 20 && age <= 40) {
 }
 
 
-// var check = age >= 20 && age <= 40 ?
-//     gender === "male" ? "allow" : "only boys allow"
-//     : "age not greater then 20"
+var check = age >= 20 && age <= 40 ?
+    gender === "male" ? "allow" : "only boys allow"
+    : "age not greater then 20"
 
 
-// var check = age >= 20 && age <= 40 ?
-//     gender === "male" ? "allow" : "gender not match"
-//     : "age not equal and greater then 20"
+var check = age >= 20 && age <= 40 ?
+    gender === "male" ? "allow" : "gender not match"
+    : "age not equal and greater then 20"
 
-// console.log(check)
+console.log(check)
 
 
+const array = ["apple", "mango"]
 
-// const array = ["apple", "mango"]
+console.log(array[0])
+console.log(array[1])
 
-// console.log(array[0])
-// console.log(array[1])
+const [a,b,c,d,e,f] = [1,2,3,4,5]
 
-// const [a,b,c,d,e,f] = [1,2,3,4,5]
-// // console.log(arr[0])
-// // console.log(arr[1])
-// // console.log(arr[2])
-// console.log(a,b,c,d , e,f)
+console.log(arr[0])
+console.log(arr[1])
+console.log(arr[2])
 
-// const a = "jaffar"
-// console.log(a)
+console.log(a,b,c,d , e,f)
 
-// const {name , age , gender , subjects} = {
-//     name: "jaffar",
-//     age: 22,
-//     gender: "male",
-//     subjects:["html" , "css"]
-// }
-// console.log(name)
-// console.log(age)
-// console.log(gender)
-// console.log("subjects" , subjects)
+const a = "jaffar"
+console.log(a)
+
+const {name , age , gender , subjects} = {
+    name: "jaffar",
+    age: 22,
+    gender: "male",
+    subjects:["html" , "css"]
+}
+console.log(name)
+console.log(age)
+console.log(gender)
+console.log("subjects" , subjects)
 
 
 // map ,filter, forEach ,find,findIndex , for of , for in
 
 
-// var array = ["apple", "mango"]
+var array = ["apple", "mango"]
 
-// for(var i = 0 ; i<array.length;i++){
-//     console.log(array[i])
-// }
+for(var i = 0 ; i<array.length;i++){
+    console.log(array[i])
+}
 
-// for (var  value of array) {
-//     // console.log(index, "index")
-//     console.log("value", value)
-// }
+for (var  value of array) {
+    console.log(index, "index")
+    console.log("value", value)
+}
+
+
 // const obj = {
 //     name: "jaffar",
 //     age: 22,
