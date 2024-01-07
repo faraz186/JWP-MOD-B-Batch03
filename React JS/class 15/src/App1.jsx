@@ -1,133 +1,114 @@
-import { useEffect, useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
-import {
-  collection,
-  addDoc,
-  setDoc,
-  doc,
-  getDocs,
-  updateDoc,
-} from "firebase/firestore";
+import { useEffect, useState } from "react"
+import { collection, addDoc,getDocs, updateDoc, doc,deleteDoc } from "firebase/firestore";
 import { db } from "./firebase";
 
 function App() {
-  const [refresh, setrefresh] = useState(false);
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setlastName] = useState("");
-  const [email, setemail] = useState("");
-  const [userData, setUserData] = useState([]);
+  const [name,setName] = useState("");
+  const [email,setEmail] = useState("");
+  const [country,setCountry] = useState("");
+  const [userData,setUserData] = useState([]);
+  const [refresh,setRefresh] = useState(false);
 
-  const addData = async () => {
+  useEffect(()=>{
+    getData()
+  },[refresh])
+
+  const getData = async()=>{
     try {
-      const userObj = {
-        name: "Muhammad Faraz",
-        phoneNumber: "034589464650",
-        age: 22,
-      };
-
-      // auto id generate
-      // const docRef = await addDoc(collection(db, "users"), userObj);
-      
-      const docRef = await setDoc(doc(db, "users", "abcd"), userObj);
-      console.log(docRef, "docRef");
-    } catch (error) {
-      console.log("error", error);
-    }
-  };
-
-  useEffect(() => {
-    getData();
-  }, [refresh]);
-
-  const getData = async () => {
-    try {
-      const arr = [];
-      const docSnap = await getDocs(collection(db, "users"));
-
-      docSnap.forEach((doc) => {
-        console.log("doc", doc.data());
-        console.log("id", doc.id);
-        arr.push({
-          ...doc.data(),
-          id: doc.id,
-        });
+      let arr = []
+      const querySnapshot = await getDocs(collection(db, "users"));
+      querySnapshot.forEach((doc)=>{
+          // console.log("doc",doc.data());
+          // console.log("id",doc.id);
+      arr.push({
+        ...doc.data(),
+        id:doc.id
       });
-
-      // console.log("arr", arr);
       setUserData([...arr]);
+      })
     } catch (error) {
-      console.log("error", error);
+      console.log(error);
     }
-  };
+  }
 
-  console.log("userData", userData);
+  console.log(userData);
 
-  const handleSubmit = async (ele) => {
+  const submitHandler = async (e)=>{
     try {
-      ele.preventDefault();
-      console.log("handleSubmit");
+      e.preventDefault();
+
+    let obj = {
+      name,
+      email,
+      country,
+    }
+    // console.log(obj);
+    
+    const docRef = await addDoc(collection(db,"users"),obj);
+    // console.log(docRef,"docRef");
+      setRefresh(!refresh);
+    
+    setName("");
+    setEmail("");
+    setCountry("");
+
+    } catch (error) {
+      console.log(error)
+    }
+    
+  }
+
+  const editBtn = async(id)=>{
+    try {
+      const editValue = prompt("Enter update value..");
 
       const userObj = {
-        firstName,
-        lastName,
-        email,
-      };
-      console.log("handleSubmit", userObj);
-      const docRef = await addDoc(collection(db, "users"), userObj);
-      console.log("docRef", docRef);
-      setrefresh(!refresh);
+        name:editValue
+      }
+
+      await updateDoc(doc(db,"users",id),userObj);
+      setRefresh(!refresh);
     } catch (error) {
-      console.log("handleSubmit error", error);
+      console.log(error)
     }
-  };
+  }
 
-  const editData = async (id) => {
-    console.log("editData", id);
-    const editValue = prompt("Enter firstName");
 
-    const userObj = {
-      firstName: editValue,
-    };
-
-    await updateDoc(doc(db, "users", id), userObj);
-    setrefresh(!refresh);
-  };
-
+  const deleteBtn = async(id)=>{
+    try {
+     await deleteDoc(doc(db, "users", id));
+      setRefresh(!refresh);
+    } catch (error) {
+      console.log(error)
+    }
+  }
   return (
     <>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          placeholder="first Name"
-          onChange={(e) => setFirstName(e.target.value)}
-        />
-        <input
-          type="text"
-          placeholder="last name"
-          onChange={(e) => setlastName(e.target.value)}
-        />
-        <input
-          type="text"
-          placeholder="email"
-          onChange={(e) => setemail(e.target.value)}
-        />
-        <button>SUBMIT</button>
-      </form>
+
+      <form onSubmit={submitHandler}>
+        <input value={name} onChange={(e)=>setName(e.target.value)} type="text" placeholder="Enter name" />
+        <br />
+        <br />
+        <input value={email} onChange={(e)=>setEmail(e.target.value)} type="email" placeholder="Enter email" />
+        <br />
+        <br />
+        <input value={country} onChange={(e)=>setCountry(e.target.value)} type="text" placeholder="Enter country" />  
+        <br />
+        <br />
+        <button>Submit</button>
+      </form>    
 
       <div>
-        {userData.map((user, index) => {
-          return (
-            <li key={index}>
-              {user.firstName}{" "}
-              <button onClick={() => editData(user.id)}>EDIT</button>{" "}
-            </li>
-          );
-        })}
+        {
+          userData.map((e,i)=>{
+            return(
+              <li key={i}>{e.name} <button onClick={()=>editBtn(e.id)}>Edit</button><button onClick={()=>deleteBtn(e.id)}>Delete</button></li>
+            )
+          })
+        }
       </div>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
