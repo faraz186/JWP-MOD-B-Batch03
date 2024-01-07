@@ -22,13 +22,14 @@ function App() {
   const addData = async () => {
     try {
       const userObj = {
-        name: "Jaffar Aman",
-        phoneNumber: "03462528569",
+        name: "Muhammad Faraz",
+        phoneNumber: "034589464650",
         age: 22,
       };
 
       // auto id generate
       // const docRef = await addDoc(collection(db, "users"), userObj);
+      
       const docRef = await setDoc(doc(db, "users", "abcd"), userObj);
       console.log(docRef, "docRef");
     } catch (error) {
@@ -46,8 +47,8 @@ function App() {
       const docSnap = await getDocs(collection(db, "users"));
 
       docSnap.forEach((doc) => {
-        // console.log("doc", doc.data());
-        // console.log("id", doc.id);
+        console.log("doc", doc.data());
+        console.log("id", doc.id);
         arr.push({
           ...doc.data(),
           id: doc.id,
