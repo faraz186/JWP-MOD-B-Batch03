@@ -1,39 +1,94 @@
-import { createUserWithEmailAndPassword } from "firebase/auth";
+import {
+  createUserWithEmailAndPassword,
+  signInWithPopup,
+  GoogleAuthProvider,
+  GithubAuthProvider,
+} from "firebase/auth";
 import React, { useState } from "react";
 import { auth } from "./firebase";
 
 const App = () => {
-  const [email, setemail] = useState("");
-  const [password, setpassword] = useState("");
-  const signupHandler = async (e) => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  // Sign up Auth
+
+  const signUpHandler = async (e) => {
     try {
       e.preventDefault();
+
       createUserWithEmailAndPassword(auth, email, password)
-        .then((userCredential) => {
-          console.log("user", userCredential.user.uid);
-          console.log("user", userCredential);
+        .then((user) => {
+          console.log("user", user);
         })
-        .catch((err) => {
-          console.log(err);
-        });
-    } catch (error) {}
+        .catch((err) => console.log("error", err));
+    } catch (error) {
+      console.log("error", error);
+    }
   };
 
+  // Google Auth
+
+  const googleHandler = async () => {
+    try {
+      const provider = new GoogleAuthProvider();
+
+      signInWithPopup(auth, provider)
+        .then((result) => {
+          console.log("result", result);
+        })
+        .catch((error) => {
+          console.log("error", error);
+        });
+    } catch (error) {
+      console.log("error", error);
+    }
+  };
+
+  // Github Auth
+
+  const githubHandler = async () => {
+    try {
+      const provider = new GithubAuthProvider();
+      signInWithPopup(auth, provider)
+        .then((result) => {
+          console.log("result", result);
+        })
+        .catch((error) => {
+          console.log("error", error);
+        });
+    } catch (error) {
+      console.log("error", error);
+    }
+  };
   return (
     <div>
-      <form onSubmit={signupHandler}>
+      <form onSubmit={signUpHandler}>
         <input
-          type="text"
-          placeholder="email"
-          onChange={(e) => setemail(e.target.value)}
+          onChange={(e) => setEmail(e.target.value)}
+          type="email"
+          placeholder="Enter email"
         />
+
+        <br />
+        <br />
+
         <input
+          onChange={(e) => setPassword(e.target.value)}
           type="password"
-          placeholder="password"
-          onChange={(e) => setpassword(e.target.value)}
+          placeholder="Enter password"
         />
-        <button>SIGNUP</button>
+
+        <br />
+        <br />
+
+        <button>Sign up</button>
       </form>
+
+      <button onClick={googleHandler}>Google</button>
+      <br />
+      <br />
+      <button onClick={githubHandler}>Github</button>
     </div>
   );
 };
