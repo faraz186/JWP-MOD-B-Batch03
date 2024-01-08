@@ -37,25 +37,25 @@ function popup(){
     alert("Hello User")
 }
     
-// var obj = [{
-//     question:"which tag has a largest heading in html",
-//     option1:"<h6>",
-//     option2:"<h2>",
-//     option3:"<h1>",
-//     correctAns:"<h1>",
+var obj = [{
+    question:"which tag has a largest heading in html",
+    option1:"<h6>",
+    option2:"<h2>",
+    option3:"<h1>",
+    correctAns:"<h1>",
 
-// }]
+}]
 
-// var question = document.getElementById("ques");
-// var opt1 = document.getElementById("opt1");
-// var opt2 = document.getElementById("opt2");
-// var opt3 = document.getElementById("opt3");
+var question = document.getElementById("ques");
+var opt1 = document.getElementById("opt1");
+var opt2 = document.getElementById("opt2");
+var opt3 = document.getElementById("opt3");
 
 
-// question.innerHTML = obj[0].question;
-// opt1.innerText = obj[0].option1;
-// opt2.innerText = obj[0].option2;
-// opt3.innerText = obj[0].option3;
+question.innerHTML = obj[0].question;
+opt1.innerText = obj[0].option1;
+opt2.innerText = obj[0].option2;
+opt3.innerText = obj[0].option3;
 
 
 // var anchor = document.getElementById("anchor");
