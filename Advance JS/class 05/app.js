@@ -75,13 +75,13 @@ let list = document.getElementById("list");
 
 list.appendChild(liElement)
 
-// var para = document.getElementById("para");
+var para = document.getElementById("para");
 
-// para.style.fontWeight = "bold";
-// para.style.color = "blue";
-// para.style.border = "5px solid black";
-// para.style.padding = "10px 15px";
-// para.style.borderRadius = "5px";
+para.style.fontWeight = "bold";
+para.style.color = "blue";
+para.style.border = "5px solid black";
+para.style.padding = "10px 15px";
+para.style.borderRadius = "5px";
 
 function changeImage(id,src)
 {
