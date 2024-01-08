@@ -58,24 +58,24 @@ opt2.innerText = obj[0].option2;
 opt3.innerText = obj[0].option3;
 
 
-// var anchor = document.getElementById("anchor");
+var anchor = document.getElementById("anchor");
 
-// anchor.setAttribute("href","https://www.google.com")
+anchor.setAttribute("href","https://www.google.com")
 
-// console.log(anchor)
+console.log(anchor)
 
 
-// let liElement = document.createElement("li");
+let liElement = document.createElement("li");
 
-// let liText = document.createTextNode("faraz");
+let liText = document.createTextNode("faraz");
 
-// liElement.appendChild(liText)
+liElement.appendChild(liText)
 
-// console.log(liElement)
+console.log(liElement)
 
-// let list = document.getElementById("list");
+let list = document.getElementById("list");
 
-// list.appendChild(liElement)
+list.appendChild(liElement)
 
 // var para = document.getElementById("para");
 
