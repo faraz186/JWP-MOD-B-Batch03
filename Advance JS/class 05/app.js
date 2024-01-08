@@ -51,7 +51,6 @@ var opt1 = document.getElementById("opt1");
 var opt2 = document.getElementById("opt2");
 var opt3 = document.getElementById("opt3");
 
-
 question.innerHTML = obj[0].question;
 opt1.innerText = obj[0].option1;
 opt2.innerText = obj[0].option2;
