@@ -36,7 +36,7 @@ para.innerHTML = `<h2>Welcome USER</h2>`
 function popup(){
     alert("Hello User")
 }
-
+    
 // var obj = [{
 //     question:"which tag has a largest heading in html",
 //     option1:"<h6>",
