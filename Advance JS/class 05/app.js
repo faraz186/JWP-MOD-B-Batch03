@@ -25,17 +25,17 @@ var output = arr.slice(4,11)
 
 console.log(output)
 
-// console.log(arr)
+console.log(arr)
 
-// var para = document.getElementById("para");
+var para = document.getElementById("para");
 
-// console.log(para)
+console.log(para)
 
-// para.innerHTML = `<h2>Welcome USER</h2>`
+para.innerHTML = `<h2>Welcome USER</h2>`
 
-// function popup(){
-//     alert("Hello User")
-// }
+function popup(){
+    alert("Hello User")
+}
 
 // var obj = [{
 //     question:"which tag has a largest heading in html",
