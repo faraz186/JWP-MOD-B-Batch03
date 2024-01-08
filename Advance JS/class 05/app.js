@@ -7,7 +7,7 @@ for(var i = 0; i< arr.length;i++)
         console.log(arr[i][j])
 
     }
-}
+}   
 
 // arr[9] = "faraz"
 
