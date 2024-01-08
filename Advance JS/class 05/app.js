@@ -17,7 +17,7 @@ arr.pop()
 
 arr.push("faraz")
 
-arr.shift()
+arr.shift()      
 
 arr.splice(6,0,96,45)
 
