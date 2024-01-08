@@ -9,21 +9,21 @@ for(var i = 0; i< arr.length;i++)
     }   
 }   
 
-// arr[9] = "faraz"
+arr[9] = "faraz"
 
-// arr.unshift("hamza")
+arr.unshift("hamza")
 
-// arr.pop()
+arr.pop()
 
-// arr.push("faraz")
+arr.push("faraz")
 
-// arr.shift()
+arr.shift()
 
-// arr.splice(6,0,96,45)
+arr.splice(6,0,96,45)
 
-// var output = arr.slice(4,11)
+var output = arr.slice(4,11)
 
-// console.log(output)
+console.log(output)
 
 // console.log(arr)
 
