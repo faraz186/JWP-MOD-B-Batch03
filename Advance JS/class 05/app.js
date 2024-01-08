@@ -63,7 +63,6 @@ anchor.setAttribute("href","https://www.google.com")
 
 console.log(anchor)
 
-
 let liElement = document.createElement("li");
 
 let liText = document.createTextNode("faraz");
