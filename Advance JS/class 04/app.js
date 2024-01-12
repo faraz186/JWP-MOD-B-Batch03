@@ -1,10 +1,10 @@
-// let obj = {
-//     name:"faraz",
-//     age:22,
-//     address:{
-//         city:"karachi"
-//     }
-// }
+let obj = {
+    name:"faraz",
+    age:22,
+    address:{
+        city:"karachi"
+    }
+}
 
 // console.log(Object.keys(obj))
 
