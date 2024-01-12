@@ -5,7 +5,8 @@ let obj1 = {
 }
 
  console.log("hasOwnProperty" in obj1)
-console.log(obj1)
+console.log(obj1);
+
 let obj = {
     name:"faraz",
     age:21,
