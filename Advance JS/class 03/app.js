@@ -108,40 +108,32 @@ for(let keys in data){
 }
 
 
-// function Student(name,age,address,email)
-// {
-//     this.name = name;
-//     this.age = age;
-//     this.address = address;
-//     this.email = email;
-// }
+function Student(name,age,address,email)
+{
+    this.name = name;
+    this.age = age;
+    this.address = address;
+    this.email = email;
+}
 
-// Student.prototype.getName = function(){
-//     return this.name
-// }
-// var student1 = new Student("faraz",21,"karachi","faraz@gmail.com")
+Student.prototype.getName = function(){
+    return this.name
+}
+var student1 = new Student("faraz",21,"karachi","faraz@gmail.com")
 
-// student1.name = "umer";
+student1.name = "umer";
 
-// console.log(student1.getName())
-
-
+console.log(student1.getName())
 
 
+Student.prototype.getName = function(){
+    return this.age
+}
 
+var student2 = new Student("ahsan",20,"lahore","ahsan@gmail.com")
 
-
-
-
-
-// Student.prototype.getName = function(){
-//     return this.age
-// }
-
-// var student2 = new Student("ahsan",20,"lahore","ahsan@gmail.com")
-
-// console.log(student1.getName())
-// console.log(student2)
+console.log(student1.getName())
+console.log(student2)
 
 let obj = {
     name:"faraz",
