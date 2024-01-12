@@ -1,11 +1,11 @@
 let obj = {
-    name:"faraz",
+    name:"faraz",  
     age:22,   
     address:{
         city:"karachi"
     }
 }
-
+      
 // console.log(Object.keys(obj))
 
 // console.log(Object.values(obj))
