@@ -61,8 +61,6 @@ let func = function(){
 
 func()
 
-
-
 let data = {
     sectionA: {
         Batch1: {
@@ -99,15 +97,15 @@ let data = {
     }
 }
 
-// for(let keys in data){
-//     console.log(keys)
-//     for(let innerKeys in data[keys]){
-//         console.log(innerKeys);
-//         for(let innerInnerKeys in data[keys][innerKeys]){
-//             console.log(innerInnerKeys,data[keys][innerKeys][innerInnerKeys])
-//         }
-//     }
-// }
+for(let keys in data){
+    console.log(keys)
+    for(let innerKeys in data[keys]){
+        console.log(innerKeys);
+        for(let innerInnerKeys in data[keys][innerKeys]){
+            console.log(innerInnerKeys,data[keys][innerKeys][innerInnerKeys])
+        }
+    }
+}
 
 
 // function Student(name,age,address,email)
