@@ -5,31 +5,31 @@ let obj1 = {
 }
 
  console.log("hasOwnProperty" in obj1)
-// console.log(obj1)
-// let obj = {
-//     name:"faraz",
-//     age:21,
-//     email:"faraz@gmail.com",
-//     getName:function(){
-//         return  obj.name;
-//     },
-//     address:{
-//         street:"A",
-//         city:"karachi",
-//         country:"Pakistan",
-//         postalCode:12345
-//     }
-// }
+console.log(obj1)
+let obj = {
+    name:"faraz",
+    age:21,
+    email:"faraz@gmail.com",
+    getName:function(){
+        return  obj.name;
+    },
+    address:{
+        street:"A",
+        city:"karachi",
+        country:"Pakistan",
+        postalCode:12345
+    }
+}
 
-// for (let keys in obj) {
-//     console.log(keys, obj[keys])
-//     for (let innerKeys in obj[keys]) {
-//         console.log(innerKeys)
-//     }
-//     for (let innerInnerKeys in obj[keys][innerKeys]) {
-//         console.log(innerKeys)
-//     }
-// }
+for (let keys in obj) {
+    console.log(keys, obj[keys])
+    for (let innerKeys in obj[keys]) {
+        console.log(innerKeys)
+    }
+    for (let innerInnerKeys in obj[keys][innerKeys]) {
+        console.log(innerKeys)
+    }
+}
 // let obj1 = {
 //     name:"faraz",
 //     age:21,
