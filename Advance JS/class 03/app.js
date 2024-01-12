@@ -45,60 +45,59 @@ for(let a in obj1){
 
 delete obj.age
 
-// console.log(obj);
-// obj.courses = ["html","css","js"]
+console.log(obj);
 
-// obj.courses.unshift("react js")
+obj.courses = ["html","css","js"]
 
+obj.courses.unshift("react js")
 
+console.log(obj)
 
-// console.log(obj)
+console.log(obj.address["country"])
 
-// console.log(obj.address["country"])
+let func = function(){
+    console.log(123)
+}
 
-// let func = function(){
-//     console.log(123)
-// }
-
-// func()
-
+func()
 
 
-// let data = {
-//     sectionA: {
-//         Batch1: {
-//             users: {
-//                 user1: {
-//                     name: "faraz",
-//                     age: 21,
-//                     address: "karachi"
-//                 },
-//                 user2: {
-//                     name: "hamza",
-//                     age: 20,
-//                     address: "lahore"
-//                 },
-//                 user3: {
-//                     name: "salman",
-//                     age: 25,
-//                     address: "quetta"
-//                 }
-//             },
-//         }
-//     },
-//     sectionB: {
-//         batch2: {
 
-//             users2: {
-//                 user4: {
-//                     name: "saqib",
-//                     age: 18,
-//                     address: "peshawar"
-//                 }
-//             }
-//         }
-//     }
-// }
+let data = {
+    sectionA: {
+        Batch1: {
+            users: {
+                user1: {
+                    name: "faraz",
+                    age: 21,
+                    address: "karachi"
+                },
+                user2: {
+                    name: "hamza",
+                    age: 20,
+                    address: "lahore"
+                },
+                user3: {
+                    name: "salman",
+                    age: 25,
+                    address: "quetta"
+                }
+            },
+        }
+    },
+    sectionB: {
+        batch2: {
+
+            users2: {
+                user4: {
+                    name: "saqib",
+                    age: 18,
+                    address: "peshawar"
+                }
+            }
+        }
+    }
+}
 
 // for(let keys in data){
 //     console.log(keys)
