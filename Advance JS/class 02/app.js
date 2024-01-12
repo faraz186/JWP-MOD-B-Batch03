@@ -1,43 +1,43 @@
-// let arr = ["faraz","ali","aryan",[12,100,false,[true],[52,"ahmed"]],["hamza",false,15],true];
+let arr = ["faraz","ali","aryan",[12,100,false,[true],[52,"ahmed"]],["hamza",false,15],true];
 
-// let [val1,val2,val3,val4,val5] = arr;
+let [val1,val2,val3,val4,val5] = arr;
 
-// let [val1,val2,val3] = arr[4]
+let [val1,val2,val3] = arr[4]
 
-// let [val1,val2,val3,val4,val5] =arr[3]
+let [val1,val2,val3,val4,val5] =arr[3]
 
-// let [val6] = arr[3][3]
-
-
-// console.log(val1)
-// console.log(val2)
-// console.log(val3)
-// console.log(val4)
-// console.log(val5)
-// console.log(val6)
-
-// let obj = {
-//     name:"abc",
-//     email:"abc@gmail.com",
-//     age:20,
-//     address:{
-//         street:"A",
-//         city:"karachi",
-//         postaCode:75950,
-//     }
-// }
-
-// let {name:myname,email,age,address} =obj;
-
-// let {street,city,postaCode} = obj.address
-
-// console.log(street);
-// console.log(city);
-// console.log(postaCode);
-// console.log(address);
+let [val6] = arr[3][3]
 
 
-// console.log(obj.address.city)
+console.log(val1)
+console.log(val2)
+console.log(val3)
+console.log(val4)
+console.log(val5)
+console.log(val6)
+
+let obj = {
+    name:"abc",
+    email:"abc@gmail.com",
+    age:20,
+    address:{
+        street:"A",
+        city:"karachi",
+        postaCode:75950,
+    }
+}
+
+let {name:myname,email,age,address} =obj;
+
+let {street,city,postaCode} = obj.address
+
+console.log(street);
+console.log(city);
+console.log(postaCode);
+console.log(address);
+
+
+console.log(obj.address.city)
 
 
 const nestedObject = {
