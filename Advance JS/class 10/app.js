@@ -5,38 +5,34 @@
 // const ==> ES6
 
 
+var userName = "ali";
+function foo() {
+    userName = "Jaffar Aman"
 
-
-
-
-// var userName = "ali";
-// function foo() {
-//     userName = "Jaffar Aman"
-
-// }
-// foo()
-// console.log(userName)
+}
+foo()
+console.log(userName)
 
 
 // let => local scope
 
-// var userName = "Jaffar"
-// var userName = "Ali"
-// console.log(userName)
-// let userName = "Jaffar"
-// userName = "Jaffar Aman"
+var userName = "Jaffar"
+var userName = "Ali"
+console.log(userName)
+let userName = "Jaffar"
+userName = "Jaffar Aman"
 
-// let userName = "Ali"
+let userName = "Ali"
 
-// const userName = "Jaffar aman"
-// // /userName = "ALI"
-// const userName = "ali"
-// console.log(userName)
+const userName = "Jaffar aman"
+// /userName = "ALI"
+const userName = "ali"
+console.log(userName)
 
 
-// const userName;
+const userName;
 
-// console.log(userName)
+console.log(userName)
 
 
 // var ==> function scope
