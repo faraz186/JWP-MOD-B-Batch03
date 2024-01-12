@@ -37,61 +37,57 @@ console.log(userName)
 
 // var ==> function scope
 
-
-
-// function foo() {
-//     let userName = "Jaffar Aman"
-// }
-// foo()
-// console.log(userName)
+function foo() {
+    let userName = "Jaffar Aman"
+}
+foo()
+console.log(userName)
 
 
 
-// if (true) {
-//     let userName = "jaffar"
-// }
+if (true) {
+    let userName = "jaffar"
+}
 
-// console.log(userName)
-
-
-// let userName;
-
-// function foo() {
-//     const  userName = "ALI"
-// }
-
-// foo()
-// console.log(userName)
+console.log(userName)
 
 
-// console.log(userName)
-// let userName = "Jaffar"
+let userName;
 
+function foo() {
+    const  userName = "ALI"
+}
+
+foo()
+console.log(userName)
+
+
+console.log(userName)
+let userName = "Jaffar"
 
 
 // Arrow function
 
+function foo(num1, num2) {
+    console.log("hello", num1, num2)
 
-// function foo(num1, num2) {
-//     console.log("hello", num1, num2)
+    return {
+        name: "Ali"
+    }
+}
 
-//     return {
-//         name: "Ali"
-//     }
-// }
+// console.log(foo(20, 30))
+var add = foo(20, 30)
 
-// // console.log(foo(20, 30))
-// var add = foo(20, 30)
-
-// console.log(add)
-
-
-// const foo = _ => {
-//     console.log(num1, num2)
-// }
+console.log(add)
 
 
-// foo(50)
+const foo = _ => {
+    console.log(num1, num2)
+}
+
+
+foo(50)
 
 
 
@@ -103,54 +99,43 @@ const result = add(80, 20)
 console.log(result)
 
 
-// const foo = ()=>{
-//     console.log("hello")
-//     console.log("hello")
-//     return 200
-// }
+const foo = ()=>{
+    console.log("hello")
+    console.log("hello")
+    return 200
+}
 
-// const obj = {
-//     userName: "Jaffar",
-//     getName: function () {
-//         console.log(this)
-//         // return userName
-//     }
-// }
+const obj = {
+    userName: "Jaffar",
+    getName: function () {
+        console.log(this)
+        // return userName
+    }
+}
 
-// const obj2 = {
-//     userName: "Jaffar Aman",
-//     getName: () => {
-//         console.log(this)
-//         // return userName
-//     }
-// }
+const obj2 = {
+    userName: "Jaffar Aman",
+    getName: () => {
+        console.log(this)
+        // return userName
+    }
+}
 
-// obj.getName()
-// obj2.getName()
-
-
-
-// var number1 = 8
-// var number2 = 8
-
-// console.log(number + "x 1  = " + number *1)
-// console.log(`addition ${number1 + number2}  `)
+obj.getName()
+obj2.getName()
 
 
+
+var number1 = 8
+var number2 = 8
+
+console.log(number + "x 1  = " + number *1)
+console.log(`addition ${number1 + number2}  `)
 
 var age = 50
 
-// var check = age === 18 ? "ALLOW" : "NOT ALLOW"
-// var check = age >= 18 ? "ALLOW" : "NOT ALLOW"
+var check = age === 18 ? "ALLOW" : "NOT ALLOW"
+var check = age >= 18 ? "ALLOW" : "NOT ALLOW"
 var check = age >= 18 && age <= 40 ? "ALLOW" : "NOT ALLOW"
 
-
-
 console.log(check)
-
-
-
-
-
-
-
