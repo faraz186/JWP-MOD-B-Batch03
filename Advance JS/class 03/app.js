@@ -31,18 +31,19 @@ for (let keys in obj) {
         console.log(innerKeys)
     }
 }
-// let obj1 = {
-//     name:"faraz",
-//     age:21,
-//     address:"karachi"
-// }
 
-// for(let a in obj1){
-//     console.log(a,obj1[a])
-// }
+let obj1 = {
+    name:"faraz",
+    age:21,
+    address:"karachi"
+}
+
+for(let a in obj1){
+    console.log(a,obj1[a])
+}
 
 
-// delete obj.age
+delete obj.age
 
 // console.log(obj);
 // obj.courses = ["html","css","js"]
