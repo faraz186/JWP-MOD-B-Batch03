@@ -6,7 +6,7 @@ if (age === 20) {
 } else {
     console.log("false")
 }
-
+   
 if (age >= 20  && age<=50) {
     console.log("true")
 } else {
