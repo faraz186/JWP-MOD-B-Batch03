@@ -43,7 +43,7 @@ var obj = [{
     option2:"<h2>",
     option3:"<h1>",
     correctAns:"<h1>",
-
+    
 }]
 
 var question = document.getElementById("ques");
