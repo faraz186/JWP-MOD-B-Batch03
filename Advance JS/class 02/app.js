@@ -20,7 +20,7 @@ let obj = {
     name:"abc",
     email:"abc@gmail.com",
     age:20,
-    address:{
+    address:{   
         street:"A",
         city:"karachi",
         postaCode:75950,
