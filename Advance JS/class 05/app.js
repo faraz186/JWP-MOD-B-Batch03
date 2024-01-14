@@ -29,7 +29,7 @@ console.log(arr)
 
 var para = document.getElementById("para");
 
-console.log(para)
+console.log(para)   
 
 para.innerHTML = `<h2>Welcome USER</h2>`   
 
