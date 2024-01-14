@@ -27,7 +27,7 @@ console.log(output)
    
 console.log(arr)
 
-var para = document.getElementById("para");
+var para = document.getElementById("para");   
 
 console.log(para)   
 
