@@ -11,7 +11,7 @@ for(var i = 0; i< arr.length;i++)
 
 arr[9] = "faraz"
 
-arr.unshift("hamza")
+arr.unshift("hamza")   
    
 arr.pop()
 
