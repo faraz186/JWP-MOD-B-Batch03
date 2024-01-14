@@ -4,7 +4,7 @@ let [val1,val2,val3,val4,val5] = arr;
 
 let [val1,val2,val3] = arr[4]
 
-let [val1,val2,val3,val4,val5] =arr[3]
+let [val1,val2,val3,val4,val5] =arr[3]  
     
 let [val6] = arr[3][3]
 
