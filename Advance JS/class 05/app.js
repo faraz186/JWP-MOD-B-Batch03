@@ -73,7 +73,7 @@ console.log(liElement)
 
 let list = document.getElementById("list");
 
-list.appendChild(liElement)
+list.appendChild(liElement)    
 
 var para = document.getElementById("para");
 
