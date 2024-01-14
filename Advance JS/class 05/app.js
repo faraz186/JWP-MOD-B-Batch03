@@ -15,7 +15,7 @@ arr.unshift("hamza")
    
 arr.pop()
 
-arr.push("faraz")
+arr.push("faraz")   
 
 arr.shift()      
 
