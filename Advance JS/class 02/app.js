@@ -37,7 +37,7 @@ console.log(postaCode);
 console.log(address);
 
 
-console.log(obj.address.city)
+console.log(obj.address.city)   
 
 
 const nestedObject = {
