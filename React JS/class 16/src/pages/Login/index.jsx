@@ -56,6 +56,7 @@ export default function Login() {
         const docs = await getDoc(doc(db, "users", userUid));
         console.log(docs.data(), "docs");
         localStorage.setItem("userData", JSON.stringify(docs.data()));
+        
         toast.success("Login successfully", {
           position: "top-center",
           autoClose: 5000,
