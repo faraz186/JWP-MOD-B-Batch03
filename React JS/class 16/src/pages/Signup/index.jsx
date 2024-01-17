@@ -135,7 +135,7 @@ export default function SignUp() {
             noValidate
             onSubmit={handleSubmit}
             sx={{ mt: 3 }}
-          >
+          >   
             <Grid container spacing={2}>
               <Grid item xs={12} sm={6}>
                 <TextField
