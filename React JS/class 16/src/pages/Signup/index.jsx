@@ -72,6 +72,7 @@ export default function SignUp() {
           console.log("userCredential", userCredential.user.uid);
 
           // user data store on firestore
+          
           // Add a new document in collection "cities"
 
           const userObj = {
