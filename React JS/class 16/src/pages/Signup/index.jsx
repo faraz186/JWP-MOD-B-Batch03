@@ -14,7 +14,7 @@ import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth, db } from "../../firebase";    
-import { doc, setDoc } from "firebase/firestore";
+import { doc, setDoc } from "firebase/firestore";   
 import { useNavigate } from "react-router-dom";   
 import { toast } from "react-toastify";
 
