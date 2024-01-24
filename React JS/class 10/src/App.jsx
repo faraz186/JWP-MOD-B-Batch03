@@ -58,7 +58,7 @@ function App() {
     {
       img: <img className='w-100 rounded' src={user4} />,
       id: 1,
-      userName: "Adil",
+      userName: "Adil",   
       age: 17,
       institute: "SAI",
       isActive: true,
