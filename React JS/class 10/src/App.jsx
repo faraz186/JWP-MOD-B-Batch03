@@ -10,7 +10,7 @@ import user3 from './images/user3.jpeg'
 import user4 from './images/user 4.jpeg'        
 import user5 from './images/user 5.jpeg'            
 
-function App() {
+function App() {   
   let arr = [            
     {                
       name: "ABC",         
