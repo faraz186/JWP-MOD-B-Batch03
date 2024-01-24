@@ -104,7 +104,7 @@ function App() {
 
   return (
     <div className="App">
-
+   
       <Input typeInput="text" valueInput="ABC" onChangeInput={() => { alert("ABC") }} />
       <Input typeInput="number" valueInput="123" onChangeInput={() => { alert("123") }} />
       <Input typeInput="password" valueInput="321" onChangeInput={() => { alert("321") }} />
