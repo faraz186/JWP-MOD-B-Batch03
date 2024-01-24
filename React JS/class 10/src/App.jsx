@@ -124,7 +124,7 @@ function App() {
         )
       })}
 
-      {arr.map((x, i) => {
+      {arr.map((x, i) => {  
         return (
           <div>
             <Table name={x.name} fName={x.fName} age={x.age} rollNo={x.rollNo} class1={x.class1} inst={x.inst} />
