@@ -20,7 +20,7 @@ function App()
     
       <Button text="sign up"/>
 
-      <Button text="logout"/>
+      <Button text="logout"/>   
 
       <Button text="feedback"/>
 
