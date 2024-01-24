@@ -12,7 +12,7 @@ function App()
 
       <h1 className="heading">Hello World</h1>
   
-      <h1>Hello {name}</h1>
+      <h1>Hello {name}</h1>   
 
       <h1>The Sum of 2 and 5 is {2+5}</h1>
 
