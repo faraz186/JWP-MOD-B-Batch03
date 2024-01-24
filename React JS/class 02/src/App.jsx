@@ -16,7 +16,7 @@ function App()
 
       <h1>The Sum of 2 and 5 is {2+5}</h1>   
 
-      <h1>The Square root of 25 {25*25}</h1>
+      <h1>The Square root of 25 {25*25}</h1>   
     
       <Button text="sign up"/>
 
