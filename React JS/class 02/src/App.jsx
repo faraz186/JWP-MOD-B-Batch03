@@ -3,7 +3,7 @@ import './App.css'
 import TextField from '@mui/material/TextField';
 
 function App()
-{
+{   
   var name = "faraz"
   
   return(
