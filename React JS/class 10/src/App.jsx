@@ -98,7 +98,7 @@ function App() {
       age: 21,
       institute: "SAI",
       isActive: true,
-      category: "MNO"
+      category: "MNO"   
     },
   ]
 
