@@ -88,7 +88,7 @@ function App() {
       userName: "Ahad",
       age: 15,
       institute: "SAI",
-      isActive: false,
+      isActive: false,   
       category: "JKL"
     },
     {
