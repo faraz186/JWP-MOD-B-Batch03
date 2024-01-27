@@ -15,7 +15,7 @@ function App() {
     {                
       name: "ABC",         
       fName: "XYZ",
-      age: 17,           
+      age: 17,              
       rollNo: 124,
       class1: 11,   
       inst: "SAI"
