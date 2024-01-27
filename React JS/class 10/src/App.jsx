@@ -107,7 +107,7 @@ function App() {
    
       <Input typeInput="text" valueInput="ABC" onChangeInput={() => { alert("ABC") }} />
       <Input typeInput="number" valueInput="123" onChangeInput={() => { alert("123") }} />
-      <Input typeInput="password" valueInput="321" onChangeInput={() => { alert("321") }} />
+      <Input typeInput="password" valueInput="321" onChangeInput={() => { alert("321") }} />    
       <Input typeInput="email" valueInput="XYZ@gamil.com" onChangeInput={() => { alert("XYZ@gamil.com") }} />
       <Input typeInput="date" valueInput="04/30/2006" onChangeInput={() => { alert("04/30/2006") }} />
 
