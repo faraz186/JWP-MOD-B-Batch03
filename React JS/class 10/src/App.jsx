@@ -18,7 +18,7 @@ function App() {
       age: 17,              
       rollNo: 124,  
       class1: 11,   
-      inst: "SAI"
+      inst: "SAI"  
     },   
     {    
       name: "DEF",   
