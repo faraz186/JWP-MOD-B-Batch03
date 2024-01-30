@@ -9,6 +9,7 @@ function Posts() {
   const [data, setData] = useState([]);
   const [IsLoader, setIsLoader] = useState(false);
   const navigate = useNavigate();
+  
   const APILink = "https://odd-lime-rhinoceros.cyclic.app/api/project";
   function handleSubmit(id) {
     const confi = window.confirm("Do you want to delete..");
