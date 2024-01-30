@@ -6,7 +6,7 @@ function Card(props){
         <div className='w-25 border rounded text-center my-5'>
           <p>{img }</p>   
           <p>Name: {userName}</p>
-          <p>Institute: {inst}</p>
+          <p>Institute: {inst}</p>  
           <p>IsActive: {isActive ? "Yes" : "No"}</p>
           <p>Category: {category}</p>   
           <p>Age: {age}</p>
