@@ -8,7 +8,7 @@ function Card(props){
           <p>Name: {userName}</p>
           <p>Institute: {inst}</p>
           <p>IsActive: {isActive ? "Yes" : "No"}</p>
-          <p>Category: {category}</p>
+          <p>Category: {category}</p>   
           <p>Age: {age}</p>
           <p>id: {id }</p>
         </div>
