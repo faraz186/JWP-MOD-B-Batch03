@@ -1,4 +1,4 @@
-import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'  
 
 function Card(props){
     const {img,id,userName,age,inst,isActive,category} = props
