@@ -12,7 +12,7 @@ function Card(props){
           <p>Age: {age}</p>
           <p>id: {id }</p>
         </div>
-    )
+    )  
 }
 
 export default Card
