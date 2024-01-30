@@ -11,7 +11,7 @@ function Card(props){
           <p>Category: {category}</p>   
           <p>Age: {age}</p>
           <p>id: {id }</p>
-        </div>
+        </div>  
     )  
 }
 
