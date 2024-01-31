@@ -1,5 +1,5 @@
 let obj1 = {
-    name:"faraz",
+    name:"faraz", 
     age:21,  
     email:"faraz@gmail.com",
 }   
