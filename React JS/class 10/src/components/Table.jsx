@@ -9,7 +9,7 @@ function Table(props) {
                         <th>Name</th>
                         <th>F Name</th>
                         <th>Age</th>
-                        <th>Roll No</th>
+                        <th>Roll No</th>  
                         <th>Class</th>
                         <th>Institute</th>
                     </tr>
