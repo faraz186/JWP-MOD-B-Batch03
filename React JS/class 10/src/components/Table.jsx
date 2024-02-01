@@ -1,4 +1,4 @@
-import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'   
 
 function Table(props) {
     const { name, fName, age, rollNo, class1, inst } = props;
