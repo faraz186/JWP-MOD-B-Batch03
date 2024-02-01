@@ -14,7 +14,7 @@ function Table(props) {
                         <th>Institute</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody>   
                     <tr>
                         <td>{name}</td>
                         <td>{fName}</td>
