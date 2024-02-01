@@ -2,7 +2,7 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 function Table(props) {
     const { name, fName, age, rollNo, class1, inst } = props;
-    return (
+    return (  
             <table className='table mt-4 text-center'>
                 <thead>
                     <tr>
