@@ -1,6 +1,6 @@
 let API_KEY = `******************************************`;
 
-let WeatherImage = `https://openweathermap.org/img/wn/10d@2x.png`
+let WeatherImage = `https://openweathermap.org/img/wn/10d@2x.png`   
 
 let getWeather = async (city)=>
 {
