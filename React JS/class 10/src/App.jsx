@@ -5,7 +5,7 @@ import Button from './components/Button'
 import Input from './components/Input';
 import Card from './components/Card';       
 import user1 from './images/user1.jpeg'              
-import user2 from './images/user2.jpeg'     
+import user2 from './images/user2.jpeg'       
 import user3 from './images/user3.jpeg'             
 import user4 from './images/user 4.jpeg'        
 import user5 from './images/user 5.jpeg'                 
