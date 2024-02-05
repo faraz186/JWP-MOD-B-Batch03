@@ -14,7 +14,7 @@ function App() {
   let arr = [                 
     {                   
       name: "ABC",         
-      fName: "XYZ",    
+      fName: "XYZ",      
       age: 17,              
       rollNo: 124,       
       class1: 11,   
