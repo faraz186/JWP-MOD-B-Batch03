@@ -20,7 +20,7 @@ function App() {
       class1: 11,   
       inst: "SAI"    
     },   
-    {    
+    {     
       name: "DEF",   
       fName: "UVW",  
       age: 17,               
