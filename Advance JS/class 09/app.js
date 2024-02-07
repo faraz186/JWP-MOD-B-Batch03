@@ -51,7 +51,6 @@ function abc() {
     console.log("abc")
 }
 
-
 // console.log(abc)
 
 // const abc = 12;
