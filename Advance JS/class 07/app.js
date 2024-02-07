@@ -2,7 +2,7 @@ let API_KEY = `******************************************`;
    
 let WeatherImage = `https://openweathermap.org/img/wn/10d@2x.png`   
 
-let getWeather = async (city)=>           
+let getWeather = async (city)=>             
 {        
     weather.innerHTML = `<div class="spinner-grow text-success" role="status">           
     <span class="visually-hidden">Loading...</span>      
