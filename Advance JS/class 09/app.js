@@ -57,12 +57,12 @@ const abc = 12;
 
 // Template literals
 
-// let firstName = "Muhammad";
-// let lastName = "faraz";
+let firstName = "Muhammad";
+let lastName = "faraz";
 
-// console.log("Welcome to " + firstName + " " + lastName)
+console.log("Welcome to " + firstName + " " + lastName)
 
-// console.log(`Welcome to ${firstName} ${lastName}. I am a web developer`)
+console.log(`Welcome to ${firstName} ${lastName}. I am a web developer`)
 
 
 // let user = prompt("Enter a number to generate table");
