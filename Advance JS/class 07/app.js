@@ -8,7 +8,7 @@ let getWeather = async (city)=>
     <span class="visually-hidden">Loading...</span>      
   </div>`  
              
-    let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;   
+    let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;     
 
     let response = await fetch(url);   
    
