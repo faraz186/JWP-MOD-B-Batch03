@@ -6,7 +6,7 @@ var a = "faraz";
   
 console.log(a);
 
-var a = "Muhammad";
+var a = "Muhammad";  
 
 // function abc() {
 //     var a = "faraz";
