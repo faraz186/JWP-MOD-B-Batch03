@@ -51,9 +51,9 @@ function abc() {
     console.log("abc")
 }
 
-// console.log(abc)
+console.log(abc)
 
-// const abc = 12;
+const abc = 12;
 
 // Template literals
 
