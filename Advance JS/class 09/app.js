@@ -73,20 +73,19 @@ for (var i = 1; i <= len; i++) {
     document.write(`${user} x ${i} = ${user * i} <br>`)
 }
 
-
 // Destructuring of Array
 
-// let arr = [10, 20, 30, [true, 100, false, "abc"], 40, 50];
+let arr = [10, 20, 30, [true, 100, false, "abc"], 40, 50];
 
-// // console.log(arr[0])
-// // console.log(arr[1])
-// // console.log(arr[2])
-// // console.log(arr[3])
+console.log(arr[0])
+console.log(arr[1])
+console.log(arr[2])
+console.log(arr[3])
 
-// let [val1, val2, val3, val4, val5] = arr
-// let [bool1, num1, bool2, str] = arr[3];
+let [val1, val2, val3, val4, val5] = arr
+let [bool1, num1, bool2, str] = arr[3];
 
-// console.log(bool1, num1, bool2, str)
+console.log(bool1, num1, bool2, str)
 
 // console.log(val1)
 // console.log(val2)
