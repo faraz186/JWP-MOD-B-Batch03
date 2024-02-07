@@ -31,10 +31,10 @@ abc()
 console.log(a)
 
 
-// const a = 12;
-// a = 10;
+const a = 12;
+a = 10;
 
-// console.log(a)
+console.log(a)
 
 
 
