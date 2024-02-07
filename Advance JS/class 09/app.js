@@ -14,7 +14,6 @@ function abc() {
 }
 abc()
 
-
 const a = 12;
 
 {
