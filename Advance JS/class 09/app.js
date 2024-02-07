@@ -65,13 +65,13 @@ console.log("Welcome to " + firstName + " " + lastName)
 console.log(`Welcome to ${firstName} ${lastName}. I am a web developer`)
 
 
-// let user = prompt("Enter a number to generate table");
-// let len = prompt("Enter length");
+let user = prompt("Enter a number to generate table");
+let len = prompt("Enter length");
 
 
-// for (var i = 1; i <= len; i++) {
-//     document.write(`${user} x ${i} = ${user * i} <br>`)
-// }
+for (var i = 1; i <= len; i++) {
+    document.write(`${user} x ${i} = ${user * i} <br>`)
+}
 
 
 // Destructuring of Array
