@@ -15,7 +15,7 @@ let getWeather = async (city)=>
     let data = await response.json();           
    
     console.log(data);
-   
+     
     return showWeather(data)  
 }     
 
