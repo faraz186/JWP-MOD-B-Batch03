@@ -1,12 +1,12 @@
-// var a = "Mohammad";
+var a = "Mohammad";
 
-// var abc;
+var abc;
 
-// var a = "faraz";
+var a = "faraz";
 
-// console.log(a);
+console.log(a);
 
-// var a = "Muhammad";
+var a = "Muhammad";
 
 // function abc() {
 //     var a = "faraz";
