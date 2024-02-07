@@ -6,7 +6,7 @@ let getWeather = async (city)=>
 {      
     weather.innerHTML = `<div class="spinner-grow text-success" role="status">     
     <span class="visually-hidden">Loading...</span>    
-  </div>`
+  </div>`  
              
     let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;   
 
