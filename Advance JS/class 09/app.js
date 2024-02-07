@@ -41,15 +41,15 @@ const firstName = "Faraz";
 
 console.log(firstName)
 
-// console.log(abc)
+console.log(abc)
 
-// var abc = true;
+var abc = true;
 
-// abc()
+abc()
 
-// function abc() {
-//     console.log("abc")
-// }
+function abc() {
+    console.log("abc")
+}
 
 
 // console.log(abc)
