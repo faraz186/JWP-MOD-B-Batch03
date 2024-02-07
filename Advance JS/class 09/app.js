@@ -41,8 +41,6 @@ const firstName = "Faraz";
 
 console.log(firstName)
 
-
-
 // console.log(abc)
 
 // var abc = true;
