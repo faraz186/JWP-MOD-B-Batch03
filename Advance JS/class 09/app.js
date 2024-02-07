@@ -8,11 +8,11 @@ console.log(a);
 
 var a = "Muhammad";  
 
-// function abc() {
-//     var a = "faraz";
-//     console.log(a)
-// }
-// abc()
+function abc() {
+    var a = "faraz";
+    console.log(a)
+}
+abc()
 
 
 // const a = 12;
