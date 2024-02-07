@@ -36,12 +36,10 @@ a = 10;
 
 console.log(a)
 
+const firstName = "Muhammad";
+const firstName = "Faraz";
 
-
-// const firstName = "Muhammad";
-// const firstName = "usman";
-
-// console.log(firstName)
+console.log(firstName)
 
 
 
