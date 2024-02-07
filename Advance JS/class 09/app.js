@@ -87,15 +87,15 @@ let [bool1, num1, bool2, str] = arr[3];
 
 console.log(bool1, num1, bool2, str)
 
-// console.log(val1)
-// console.log(val2)
-// console.log(val3)
-// console.log(val4)
-// console.log(val5)
+console.log(val1)
+console.log(val2)
+console.log(val3)
+console.log(val4)
+console.log(val5)
 
-// console.log(val3)
-// console.log(val4)
-// console.log(val5)
+console.log(val3)
+console.log(val4)
+console.log(val5)
 
 
 let arr2 = ["karachi", "lahore", ["peshawar", ["quetta"], "islamabad", [12, true]]];
