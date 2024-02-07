@@ -57,7 +57,6 @@ const abc = 12;
 
 // Template literals
 
-
 // let firstName = "Muhammad";
 // let lastName = "faraz";
 
