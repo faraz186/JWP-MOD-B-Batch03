@@ -16,7 +16,7 @@ let getWeather = async (city)=>
    
     console.log(data);
      
-    return showWeather(data)  
+    return showWeather(data)     
 }       
 
 let showWeather = (getData)=>{
