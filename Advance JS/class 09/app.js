@@ -15,21 +15,21 @@ function abc() {
 abc()
 
 
-// const a = 12;
+const a = 12;
 
-// {
-//     const a = 10;
-//     console.log(a);
-// }
-// console.log(a);
+{
+    const a = 10;
+    console.log(a);
+}
+console.log(a);
 
 
-// function abc() {
-//     const a = 100
-// }
+function abc() {
+    const a = 100
+}
 
-// abc()
-// console.log(a)
+abc()
+console.log(a)
 
 
 // const a = 12;
