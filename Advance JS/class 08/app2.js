@@ -1,3 +1,3 @@
-import check from './app.js';
+import check from './app.js';  
 
 check()  
