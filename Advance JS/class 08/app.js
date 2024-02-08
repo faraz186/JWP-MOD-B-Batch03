@@ -16,15 +16,15 @@ class Student{
     }
 }
 
-// const std1 = new Student("faraz",22,"karachi");
+const std1 = new Student("faraz",22,"karachi");
 
-// console.log(std1)
+console.log(std1)
 
-// let check = ()=>{
-//     console.log("Check...")
-// }
+let check = ()=>{
+    console.log("Check...")
+}
 
-// export default check
+export default check
 
 
 function changeColor(elem){
