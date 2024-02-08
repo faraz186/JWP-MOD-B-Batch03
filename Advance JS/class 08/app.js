@@ -1,9 +1,9 @@
-// function Student1(name,age,city)
-// {
-//     this.name = name;
-//     this.age = age;
-//     this.city = city
-// }
+function Student1(name,age,city)
+{
+    this.name = name;
+    this.age = age;
+    this.city = city
+}
 
 // const std2 = new Student1("faraz",22,"karachi")
 // console.log(std2)
