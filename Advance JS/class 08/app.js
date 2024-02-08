@@ -6,7 +6,7 @@ function Student1(name,age,city)
 }
 
 const std2 = new Student1("faraz",22,"karachi")
-console.log(std2)
+console.log(std2)  
 
 class Student{
     constructor(name,age,city){
