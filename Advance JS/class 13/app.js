@@ -1,7 +1,7 @@
 var cities = ["karachi", "lahore", "Multan", "islamabad", "karachi"]   
 
 const findValue = cities.find((value, index) => {
-    if (value.toLowerCase() === "karachi") {
+    if (value.toLowerCase() === "karachi") {  
         return true  
     }         
 })  
