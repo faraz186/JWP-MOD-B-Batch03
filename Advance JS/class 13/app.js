@@ -4,7 +4,7 @@ const findValue = cities.find((value, index) => {
     if (value.toLowerCase() === "karachi") {
         return true  
     }         
-})
+})  
 console.log("findValue", findValue)
          
 
