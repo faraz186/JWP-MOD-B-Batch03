@@ -11,7 +11,7 @@ let obj = {
     name:"faraz",
     age:21,
     email:"faraz@gmail.com",
-    getName:function(){
+    getName:function(){  
         return  obj.name;
     },
     address:{
