@@ -10,7 +10,7 @@ console.log(std2)
 
 class Student{
     constructor(name,age,city){  
-        this.name = name;
+        this.name = name;  
         this.age = age;  
         this.city= city;    
     }
