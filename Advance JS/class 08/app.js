@@ -16,7 +16,7 @@ class Student{
     }
 }
 
-const std1 = new Student("faraz",22,"karachi");
+const std1 = new Student("faraz",22,"karachi");  
 
 console.log(std1)
 
