@@ -34,7 +34,7 @@ console.log(para)
 para.innerHTML = `<h2>Welcome USER</h2>`   
 
 function popup(){
-    alert("Hello User")
+    alert("Hello User")  
 }
     
 var obj = [{
