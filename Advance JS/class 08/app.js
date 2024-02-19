@@ -1,4 +1,4 @@
-function Student1(name,age,city)  
+function Student1(name,age,city)    
 {
     this.name = name;  
     this.age = age;    
