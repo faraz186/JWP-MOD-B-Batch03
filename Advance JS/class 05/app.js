@@ -23,7 +23,7 @@ arr.splice(6,0,96,45)
   
 var output = arr.slice(4,11)
 
-console.log(output)
+console.log(output)  
      
 console.log(arr)
 
