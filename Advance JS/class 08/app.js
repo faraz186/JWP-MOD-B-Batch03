@@ -25,7 +25,7 @@ let check = ()=>{
 }
 
 export default check
-
+  
 function changeColor(elem){
     elem.style.backgroundColor = "red"
 }
