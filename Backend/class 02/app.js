@@ -22,18 +22,19 @@ app.get("/", (request, response) => {
 });
 
 // get all products
-// app.get("/allproduct", (request, response) => {
-//   console.log("allProducts", request.query);
-//   if (request.query.id) {
-//     const filterData = productObj.filter(
-//       (product) => product.id == request.query.id
-//     );
-//     response.send(filterData);
-//     return;
-//   }
 
-//   response.send(productObj);
-// });
+app.get("/allproduct", (request, response) => {
+  console.log("allProducts", request.query);
+  if (request.query.id) {
+    const filterData = productObj.filter(
+      (product) => product.id == request.query.id
+    );
+    response.send(filterData);
+    return;
+  }
+
+  response.send(productObj);
+});
 
 // single product
 // app.get("/product/:id", (req, res) => {
