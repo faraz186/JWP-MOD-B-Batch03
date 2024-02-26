@@ -37,14 +37,14 @@ app.get("/allproduct", (request, response) => {
 });
 
 // single product
-// app.get("/product/:id", (req, res) => {
-//   console.log(typeof req.params.id, "params");
-//   const filterData = productObj.filter(
-//     (product) => product.id == req.params.id
-//   );
+app.get("/product/:id", (req, res) => {
+  console.log(typeof req.params.id, "params");
+  const filterData = productObj.filter(
+    (product) => product.id == req.params.id
+  );
 
-//   res.send(filterData);
-// });
+  res.send(filterData);
+});
 
 // USER CRUD
 // create=>
