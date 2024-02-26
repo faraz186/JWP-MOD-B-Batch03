@@ -17,7 +17,7 @@ app.get("/user", (request, response) => {
 app.get("/products", (request, response) => {
   console.log("api hit");
   response.send(data);
-});
+});  
 
 app.listen(PORT, () =>
   console.log(`server running on http://localhost:${PORT}`)
