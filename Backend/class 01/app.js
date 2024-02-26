@@ -11,7 +11,7 @@ app.get("/helloworld", (request, response) => {
 app.get("/user", (request, response) => {
   response.send({
     firstName: "Ubaid",
-  });
+  });  
 });
 
 app.get("/products", (request, response) => {
