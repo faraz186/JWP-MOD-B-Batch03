@@ -6,12 +6,11 @@ const app = express();
 const PORT = 5000;
 const uri = "mongodb+srv://admin:admin@crudapp.ael8koi.mongodb.net/";
 
-mongoose.connect(uri);
+mongoose.connect(uri).then((res) => console.log("mongodb connect successfully"))
+.catch((err) => console.log("err", err));
+
 mongoose.connection.on("connected", () => console.log("MongoDB Connected"));
 mongoose.connection.on("error", (err) => console.log("MongoDB Error", err));  
-
-//   .then((res) => console.log("mongodb connect successfully"))
-//   .catch((err) => console.log("err", err));
 
 // body parser
 app.use(express.json());
