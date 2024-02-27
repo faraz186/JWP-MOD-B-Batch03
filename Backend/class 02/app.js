@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 
 const app = express();
 const PORT = 5000;    
-const uri = "mongodb+srv://admin:admin@crudapp.ael8koi.mongodb.net/";
+const uri = "*******+srv://admin:@******************.net/";
 
 mongoose.connect(uri).then((res) => console.log("mongodb connect successfully"))
 .catch((err) => console.log("err", err));
