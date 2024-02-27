@@ -16,7 +16,7 @@ mongoose.connect(uri).then((res) => console.log("mongodb connect successfully"))
 app.use(express.json());  
 app.use(express.urlencoded({ extended: true }));  
 
-//root  
+//root    
 app.get("/", (request, response) => {   
   response.send("SERVER UP");
 });
