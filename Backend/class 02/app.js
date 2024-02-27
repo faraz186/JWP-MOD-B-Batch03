@@ -50,7 +50,7 @@ app.get("/product/:id", (req, res) => {
 // create=>
 // get=>
 // update=>
-// delete=>
+// delete=>   
 
 app.post("/createuser", (req, res) => {
   console.log("body", req.body);
