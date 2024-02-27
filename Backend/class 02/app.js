@@ -9,7 +9,7 @@ const uri = "mongodb+srv://admin:admin@crudapp.ael8koi.mongodb.net/";
 mongoose.connect(uri).then((res) => console.log("mongodb connect successfully"))
 .catch((err) => console.log("err", err));
 
-// mongoose.connection.on("connected", () => console.log("MongoDB Connected"));
+// mongoose.connection.on("connected", () => console.log("MongoDB Connected"));  
 // mongoose.connection.on("error", (err) => console.log("MongoDB Error", err));  
 
 // body parser
