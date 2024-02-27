@@ -14,7 +14,7 @@ mongoose.connect(uri).then((res) => console.log("mongodb connect successfully"))
    
 // body parser   
 app.use(express.json());  
-app.use(express.urlencoded({ extended: true }));  
+app.use(express.urlencoded({ extended: true }));     
 
 //root    
 app.get("/", (request, response) => {   
