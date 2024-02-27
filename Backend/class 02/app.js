@@ -7,7 +7,7 @@ const PORT = 5000;
 const uri = "*******+srv://admin:@******************.net/";
 
 mongoose.connect(uri).then((res) => console.log("mongodb connect successfully"))
-.catch((err) => console.log("err", err));   
+.catch((err) => console.log("err", err));      
 
 // mongoose.connection.on("connected", () => console.log("MongoDB Connected"));       
 // mongoose.connection.on("error", (err) => console.log("MongoDB Error", err));    
