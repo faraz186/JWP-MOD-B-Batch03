@@ -65,7 +65,7 @@ app.put("/createuser", (req, res) => {
   res.send("UPDATE USER");
 });
 
-app.delete("/createuser", (req, res) => {
+app.delete("/createuser", (req, res) => {   
   res.send("delete USER");
 });
 
