@@ -1,5 +1,5 @@
 import express from "express";  
-import { productObj } from "./data.js";    
+import { productObj } from "./data.js";      
 import mongoose from "mongoose";  
 
 const app = express();   
