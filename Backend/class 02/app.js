@@ -3,7 +3,7 @@ import { productObj } from "./data.js";
 import mongoose from "mongoose";
 
 const app = express();
-const PORT = 5000;
+const PORT = 5000;  
 const uri = "mongodb+srv://admin:admin@crudapp.ael8koi.mongodb.net/";
 
 mongoose.connect(uri).then((res) => console.log("mongodb connect successfully"))
