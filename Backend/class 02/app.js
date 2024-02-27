@@ -13,7 +13,7 @@ mongoose.connect(uri).then((res) => console.log("mongodb connect successfully"))
 // mongoose.connection.on("error", (err) => console.log("MongoDB Error", err));  
    
 // body parser   
-app.use(express.json());
+app.use(express.json());  
 app.use(express.urlencoded({ extended: true }));  
 
 //root  
