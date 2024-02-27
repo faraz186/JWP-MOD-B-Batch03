@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 //root  
-app.get("/", (request, response) => {
+app.get("/", (request, response) => {   
   response.send("SERVER UP");
 });
 
