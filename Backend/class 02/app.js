@@ -1,4 +1,4 @@
-import express from "express";
+import express from "express";  
 import { productObj } from "./data.js";    
 import mongoose from "mongoose";  
 
