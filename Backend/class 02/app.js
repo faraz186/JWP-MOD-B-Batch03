@@ -53,7 +53,7 @@ app.get("/product/:id", (req, res) => {
 // delete=>   
 
 app.post("/createuser", (req, res) => {
-  console.log("body", req.body);
+  console.log("body", req.body);   
   res.send("CREATE USER");
 });
 
