@@ -12,7 +12,7 @@ mongoose.connect(uri).then((res) => console.log("mongodb connect successfully"))
 // mongoose.connection.on("connected", () => console.log("MongoDB Connected"));  
 // mongoose.connection.on("error", (err) => console.log("MongoDB Error", err));  
 
-// body parser
+// body parser   
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
