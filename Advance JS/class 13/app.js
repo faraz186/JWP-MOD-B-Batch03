@@ -15,7 +15,7 @@ const filterStd = stdArr.filter((value, index) => {
         return true   
     }
 })
-console.log("filterStd", filterStd)
+console.log("filterStd", filterStd)   
 
 
 const filterValue = cities.filter((value, index) => {
