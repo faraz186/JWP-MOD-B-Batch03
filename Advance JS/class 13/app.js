@@ -14,7 +14,7 @@ const filterStd = stdArr.filter((value, index) => {
     if (value.age >= 18) {  
         return true   
     }
-})
+})   
 console.log("filterStd", filterStd)   
 
 
