@@ -1,7 +1,6 @@
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'     
 
 function Card(props){  
-    
     const {img,id,userName,age,inst,isActive,category} = props    
     return(  
         <div className='w-25 border rounded text-center my-5'>  
