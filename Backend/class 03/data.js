@@ -145,7 +145,7 @@ export const productObj = [
       count: 319,
     },
   },
-  {
+  {   
     id: 12,
     title:
       "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
