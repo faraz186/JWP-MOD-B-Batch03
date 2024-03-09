@@ -1,6 +1,6 @@
 var a = "Mohammad";      
          
-var abc;     
+var abc;        
         
 var a = "faraz";  
        
