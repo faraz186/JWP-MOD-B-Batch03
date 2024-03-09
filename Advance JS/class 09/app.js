@@ -4,7 +4,7 @@ var abc;
         
 var a = "faraz";  
        
-console.log(a);
+console.log(a);   
 
 var a = "Muhammad";        
 
