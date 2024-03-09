@@ -8,7 +8,7 @@ console.log(a);
 
 var a = "Muhammad";        
 
-function abc() {
+function abc() {   
     var a = "faraz";
     console.log(a)
 }
