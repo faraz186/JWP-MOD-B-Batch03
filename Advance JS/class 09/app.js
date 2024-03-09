@@ -1,5 +1,5 @@
 var a = "Mohammad";
-   
+      
 var abc;  
   
 var a = "faraz";  
