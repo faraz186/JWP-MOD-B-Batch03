@@ -26,7 +26,7 @@ console.log(a);
 function abc() {
     const a = 100
 }
-
+         
 abc()
 console.log(a)
 
