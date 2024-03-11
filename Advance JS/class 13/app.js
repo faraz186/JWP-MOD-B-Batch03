@@ -11,7 +11,7 @@ const stdArr = [{ name: "Jaffar", age: 15, }, { name: "Sufiyan", age: 32, }, { n
 
 const filterStd = stdArr.filter((value, index) => {
     console.log("value", value)       
-    if (value.age >= 18) {  
+    if (value.age >= 18) {    
         return true   
     }
 })     
