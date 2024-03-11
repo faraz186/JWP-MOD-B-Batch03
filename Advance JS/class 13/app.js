@@ -26,7 +26,7 @@ const filterValue = cities.filter((value, index) => {
 })
 
 console.log("filterValue", filterValue)
-
+    
 var cities = ["karachi", "lahore", "Multan", "islamabad", "karachi"]
 var cities = [1, 2, 3, 45, 6, 78]
 
