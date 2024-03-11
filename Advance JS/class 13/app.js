@@ -29,7 +29,7 @@ console.log("filterValue", filterValue)
     
 var cities = ["karachi", "lahore", "Multan", "islamabad", "karachi"]
 var cities = [1, 2, 3, 45, 6, 78]
-
+    
 const newArr = cities.forEach((value, index) => {
     console.log(value)
     return value * 2
