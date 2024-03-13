@@ -8,7 +8,7 @@ let obj1 = {
 console.log(obj1);
 
 let obj = {
-    name:"faraz",
+    name:"faraz",  
     age:21,
     email:"faraz@gmail.com",
     getName:function(){  
