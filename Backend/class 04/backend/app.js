@@ -14,7 +14,7 @@ app.use(cors());
 
 mongoose.connect(uri);
 mongoose.connection.on("connected", () => console.log("database connected..."));
-mongoose.connection.on("error", (err) => console.log(err));
+mongoose.connection.on("error", (err) => console.log(err));   
 
 app.get("/", (req, res) => {
   res.json({
