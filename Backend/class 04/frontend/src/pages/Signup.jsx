@@ -54,7 +54,7 @@ export default function Signup() {
       const obj = {
         firstName,
         lastName,
-        email,
+        email,   
         password,
       };
 
