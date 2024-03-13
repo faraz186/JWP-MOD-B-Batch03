@@ -17,7 +17,7 @@ mongoose.connection.on("connected", () => console.log("database connected..."));
 mongoose.connection.on("error", (err) => console.log(err));   
 
 app.get("/", (req, res) => {
-  res.json({
+  res.json({   
     message: "SERVER RUNNING...",
   });
 });
