@@ -3,7 +3,7 @@ const express = require("express");
 const userModel = require("./model/schema.js");
 const bcrypt = require("bcryptjs");
 const cors = require("cors");
-
+   
 const uri = "mongodb+srv://faraz:faraz@cluster0.z9fsdmf.mongodb.net/";
 const app = express();
 const PORT = 5000 || process.env.port;
