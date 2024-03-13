@@ -18,7 +18,7 @@ let obj = {
         street:"A",
         city:"karachi",
         country:"Pakistan",
-        postalCode:12345
+        postalCode:12345    
     }
 }
 
