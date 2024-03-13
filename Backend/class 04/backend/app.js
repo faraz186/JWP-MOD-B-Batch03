@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const express = require("express");
 const userModel = require("./model/schema.js");
 const bcrypt = require("bcryptjs");
-const cors = require("cors");
+const cors = require("cors");   
    
 const uri = "************************************************";
 const app = express();
