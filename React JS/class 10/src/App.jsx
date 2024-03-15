@@ -1,7 +1,7 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'                               
 import './App.css';                             
 import Table from './components/Table'            
-import Button from './components/Button'                 
+import Button from './components/Button'                    
 import Input from './components/Input';           
 import Card from './components/Card';          
 import user1 from './images/user1.jpeg'              
