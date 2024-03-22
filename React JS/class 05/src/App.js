@@ -13,7 +13,7 @@ function App() {
   }
 
   const dec = ()=>{
-    setCounter(counter - 1)   
+    setCounter(counter - 1)      
     
   }
 
