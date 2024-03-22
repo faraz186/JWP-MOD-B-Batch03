@@ -20,7 +20,7 @@ function App() {
   return (
     <div>
       
-      <h1>Counter App</h1>
+      <h1>Counter App</h1>   
    
       <h1>{counter}</h1>
 
