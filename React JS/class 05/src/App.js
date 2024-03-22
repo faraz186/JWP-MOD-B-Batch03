@@ -9,7 +9,7 @@ function App() {
   const [counter,setCounter] = useState(0)
 
   const inc = ()=>{      
-    setCounter(counter + 1)
+    setCounter(counter + 1)   
   }
 
   const dec = ()=>{
