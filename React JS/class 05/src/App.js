@@ -4,7 +4,7 @@ import Cards from './components/card'
 
 import { useState } from "react";
 
-function App() {
+function App() {   
 
   const [counter,setCounter] = useState(0)
 
