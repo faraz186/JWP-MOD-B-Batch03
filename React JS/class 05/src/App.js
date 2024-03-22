@@ -21,7 +21,7 @@ function App() {
     <div>
       
       <h1>Counter App</h1>
-
+   
       <h1>{counter}</h1>
 
       <button onClick={inc}>Increment</button>
