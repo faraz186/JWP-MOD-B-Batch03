@@ -8,7 +8,7 @@ function App() {
 
   const [counter,setCounter] = useState(0)
 
-  const inc = ()=>{   
+  const inc = ()=>{      
     setCounter(counter + 1)
   }
 
