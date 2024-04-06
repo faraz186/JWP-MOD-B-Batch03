@@ -15,7 +15,7 @@ function App()
   // }
   // else{
   //   console.log("off");
-
+   
   // }
 
   // var arr = ["faraz","Ali","Ahmed","hamza","jaffar"]
