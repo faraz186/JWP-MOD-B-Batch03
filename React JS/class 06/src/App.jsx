@@ -4,7 +4,7 @@ import bulbOn from '/bulbOn.webp';
 import bulbOff from '/bulbOff.jpg';
 import { useState } from 'react';
       
-function App() 
+function App()   
 {
   const [bulbon,setBulbon] = useState(false);
   const [isLoggedIn,setisLoggedIn] = useState(true);
