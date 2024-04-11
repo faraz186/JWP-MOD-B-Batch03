@@ -3,7 +3,7 @@ let obj = {
     age:22,               
     address:{          
         city:"karachi"   
-    }  
+    }    
 }
       
 console.log(Object.keys(obj))
