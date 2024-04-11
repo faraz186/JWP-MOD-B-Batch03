@@ -1,6 +1,6 @@
 let obj = {
     name:"faraz",         
-    age:22,                   
+    age:22,                     
     address:{              
         city:"karachi"   
     }    
