@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const UserSchema = mongoose.Schema(
 {
     NotesName: String,
-    NumberOfNotes:Number,
+    NumberOfNotes:Number,  
     createdAt:Date,
 });
 
