@@ -4,7 +4,7 @@ const UserSchema = mongoose.Schema(
 {       
     NotesName: String,
     NumberOfNotes:Number,    
-    createdAt:Date,
+    createdAt:Date,  
 });
 
 const userModel = mongoose.model("notes",UserSchema);
