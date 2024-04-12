@@ -8,5 +8,5 @@ const UserSchema = mongoose.Schema(
 });
 
 const userModel = mongoose.model("notes",UserSchema);
-
+   
 module.exports = userModel;
