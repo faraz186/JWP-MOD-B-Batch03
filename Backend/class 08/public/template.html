@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github User Profile</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        margin-top: 0;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 20px;
+      }
+      p {
+        margin: 10px 0;
+      }
+      strong {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="username"></h1>
+      <img id="avatar" src="" alt="User Avatar" />
+      <p id="bio">Bio:</p>
+      <p><strong>ID:</strong> <span id="id"></span></p>
+      <p><strong>Node ID:</strong> <span id="node_id"></span></p>
+      <p><strong>URL:</strong> <a id="html_url" href="" target="_blank"></a></p>
+      <p><strong>Followers:</strong> <span id="followers"></span></p>
+      <p><strong>Following:</strong> <span id="following"></span></p>
+      <p><strong>Public Repos:</strong> <span id="public_repos"></span></p>
+      <p><strong>Public Gists:</strong> <span id="public_gists"></span></p>
+      <p><strong>Company:</strong> <span id="company"></span></p>
+      <p><strong>Email:</strong> <span id="email"></span></p>
+      <p><strong>Location:</strong> <span id="location"></span></p>
+      <p>
+        <strong>Twitter Username:</strong> <span id="twitter_username"></span>
+      </p>
+      <p><strong>Created At:</strong> <span id="created_at"></span></p>
+      <p><strong>Updated At:</strong> <span id="updated_at"></span></p>
+    </div>
+  </body>
+</html>
