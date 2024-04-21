@@ -1,6 +1,5 @@
 console.log("HELLO WORLD")
 
-
 var userName ="jawan pakistan";
 console.log(userName)
 userName = "jaffar aman"
