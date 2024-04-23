@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 8080;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-const users = [];
+const users = [];  
 
 app.get("/api/getuser", (req, res) => {
   res.json(users);
