@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 
 const users = [];  
 
-app.get("/api/getuser", (req, res) => {
+app.get("/api/getuser", (req, res) => {   
   res.json(users);
 });
 
