@@ -16,7 +16,7 @@ app.get("/api/getuser", (req, res) => {
 });
 
 app.post("/api/createuser", (req, res) => {
-  users.push({ ...req.body, id: Date.now().toString(25) });
+  users.push({ ...req.body, id: Date.now().toString(25) });   
   console.log(users);
   res.json({
     message: "user created successfully...",
