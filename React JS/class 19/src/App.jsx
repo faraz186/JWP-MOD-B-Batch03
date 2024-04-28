@@ -24,6 +24,7 @@ function App() {
       >
         ADD COUNTER
       </button> */}
+      
       <Routes>
         <Route index element={<Home />} />
         <Route path="/cart" element={<Cart />} />
