@@ -23,7 +23,7 @@ const filterValue = cities.filter((value, index) => {
     if (value === "karachi") {      
         return true   
     }  
-})
+})  
      
 console.log("filterValue", filterValue)    
     
