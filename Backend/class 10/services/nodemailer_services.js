@@ -15,7 +15,7 @@ const transporter = nodemailer.createTransport({
 //   https://www.website.com/verification?token=dfsfsdfsdfsd
 // async..await is not allowed in global scope, must use a wrapper
 async function send_verification_email(email, otp_code) {
-    // send mail with defined transport object
+    // send mail with defined transport object  
     const info = await transporter.sendMail({
       from: 'jpwork011@gmail.com | Jawan Tech', // sender address
       to: email, // list of receivers
