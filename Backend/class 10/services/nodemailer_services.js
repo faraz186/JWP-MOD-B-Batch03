@@ -19,7 +19,7 @@ async function send_verification_email(email, otp_code) {
     const info = await transporter.sendMail({
       from: 'jpwork011@gmail.com | Jawan Tech', // sender address
       to: email, // list of receivers
-      subject: "OTP Verification", // Subject line
+      subject: "OTP Verification", // Subject line  
     //   text: "Hello world?", // plain text body
       html: `<!DOCTYPE html>
       <html lang="en">
