@@ -2,7 +2,7 @@ var a = "Mohammad";
     
 var abc;        
     
-var a = "faraz";
+var a = "faraz";  
 
 console.log(a);
 
