@@ -1,0 +1,30 @@
+Due to a custom Android SDK installation location I also had to set an extra environment variable:
+
+Command: ANDROID_HOME: C:\path\to\AndroidSDK
+
+Step 2: Configure an Android Virtual Device
+
+Set up Android Studio
+
+Create an empty Android Studio project
+Create an Android Virtual Device: Manage AVD → Create
+Boot your Android Virtual Device
+
+Step 3: Jump into Command Line
+
+Open command prompt, jump into bash, and navigate to where you want your project to live
+bash
+cd /path/to/code
+Install React Native globally:
+npm install -g react-native-cli
+
+Create a new React Native project (Note: this step may take a while):
+
+react-native init AwesomeProject
+
+CD into your new project
+Optional: Configure Gradle Daemon for faster compiling:
+((if not exist “%USERPROFILE%/.gradle” mkdir “%USERPROFILE%/.gradle”) && (echo org.gradle.daemon=true >> “%USERPROFILE%/.gradle/gradle.properties”))
+Change your android/app/build.gradle file to use your installed version of Android SDK (I had to change mine from 23.0.1 to 23.0.3)
+Start your application
+react-native run-android
