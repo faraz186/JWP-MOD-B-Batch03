@@ -4,7 +4,7 @@ const jwt = require("jsonwebtoken");
 const { send_verification_email } = require("../services/nodemailer_services");
 const { generate_otp } = require("../services/generate_otp");
 const { Verification_OTP_Schema } = require("../models/Verification_OTP_Model");
-   
+     
 // Controller function for user signup
 const signup_controller = async (req, res) => {
   try {  
