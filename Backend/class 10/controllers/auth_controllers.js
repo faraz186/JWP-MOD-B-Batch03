@@ -7,7 +7,7 @@ const { Verification_OTP_Schema } = require("../models/Verification_OTP_Model");
    
 // Controller function for user signup
 const signup_controller = async (req, res) => {
-  try {
+  try {  
     const body = req.body;
 
     const salt = bcrypt.genSaltSync(10);
