@@ -11,7 +11,7 @@ export const productObj = [
       rate: 3.9,     
       count: 120,
     },
-  },
+  },  
   {  
     id: 2,
     title: "Mens Casual Premium Slim Fit T-Shirts ",      
