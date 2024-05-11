@@ -7,7 +7,7 @@ const check_auth_middleware = async (req, res, next) => {
   try {
     // Extracting the authentication token from cookies sent with the request
     const auth_token = req.cookies.auth_token;
-
+  
     // Verifying the authenticity of the token using the JWT_SECRET_KEY stored in environment variables
     const verify_token = jwt.verify(auth_token, process.env.JWT_SECRET_KEY);
 
