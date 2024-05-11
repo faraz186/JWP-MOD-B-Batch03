@@ -1,7 +1,7 @@
 // Importing necessary packages and modules
 const jwt = require("jsonwebtoken"); // JSON Web Token package for handling authentication tokens
 const { Users_Schema } = require("../models/Users_Model"); // Importing the User Schema model
-
+  
 // Middleware function to check authentication
 const check_auth_middleware = async (req, res, next) => {
   try {
