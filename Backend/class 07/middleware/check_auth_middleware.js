@@ -17,7 +17,7 @@ const check_auth_middleware = async (req, res, next) => {
       return res
         .status(402)
         .json({ success: false, message: "Unauthorized user" });
-    }
+    }  
 
     // Extracting the user ID from the verified token payload
     const user_id = verify_token.user_id;
