@@ -18,5 +18,5 @@ mongoose
 app.use(route);
 
 app.listen(PORT, () =>
-  console.log(`server running on http://localhost:${PORT}/`)
+  console.log(`server running on http://localhost:${PORT}/`)  
 );
