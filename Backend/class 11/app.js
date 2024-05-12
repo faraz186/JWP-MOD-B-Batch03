@@ -12,7 +12,7 @@ app.use(cors({ origin: "*" }));
 
 mongoose
   .connect(process.env.MONGODB_URI)
-  .then(() => console.log("mongodb connected!"))
+  .then(() => console.log("mongodb connected!"))  
   .catch((error) => console.log("err mongodb", error.message));
 
 app.use(route);
