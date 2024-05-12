@@ -13,7 +13,7 @@ export const signupController = async (request, response) => {
     if (!fullName || !age || !phoneNumber || !gender || !email || !password) {
       response.json({
         message: "required fields are missing!",
-        status: false,
+        status: false,  
       });
       return;
     }
