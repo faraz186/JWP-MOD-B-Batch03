@@ -9,13 +9,13 @@ import route from "./routes/index.js";
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({ origin: "*" }));
+app.use(route);
 
 mongoose
   .connect(process.env.MONGODB_URI)
   .then(() => console.log("mongodb connected!"))  
   .catch((error) => console.log("err mongodb", error.message));
 
-app.use(route);
 
 app.listen(PORT, () =>
   console.log(`server running on http://localhost:${PORT}/`)  
