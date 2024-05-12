@@ -1,6 +1,6 @@
 import UserModel from "../models/UserSchema.js";
 import bcrypt from "bcryptjs";
-import jwt from "jsonwebtoken";
+import jwt from "jsonwebtoken";  
 import nodemailer from "nodemailer";
 import { EmailVerificationHtml } from "../templates/index.js";
 import OTPModel from "../models/OTPSchema.js";
