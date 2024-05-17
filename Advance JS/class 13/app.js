@@ -39,7 +39,7 @@ console.log("cities", cities)
 console.log("newArr", newArr)
 
 
-// primitive ata type
+// primitive data type
 
 // .) String
 // .) Number
