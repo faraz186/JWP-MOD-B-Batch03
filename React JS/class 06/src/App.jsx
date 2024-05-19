@@ -9,7 +9,7 @@ function App()
   const [bulbon,setBulbon] = useState(false);
   const [isLoggedIn,setisLoggedIn] = useState(true);
 
-  // if(bulbOn)  
+  // if(bulbOn)    
   // {
   //   console.log("on");
   // }
