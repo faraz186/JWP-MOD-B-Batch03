@@ -5,7 +5,6 @@ import About from '../../Screens/About';
 import Contact from '../../Screens/Contact';
 import Profile from '../../Screens/Profile';
 
-
 const Stack = createNativeStackNavigator();
 
 const App_Navigation = () => {
