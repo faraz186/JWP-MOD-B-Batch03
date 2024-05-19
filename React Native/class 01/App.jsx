@@ -3,7 +3,7 @@ import { Card } from "./components/Card"
 import { Styled_Component } from "./components/Styled_Component"
 import { Scrollview_Component } from "./components/Scrollview_Component"
 
-const App = () => {
+const App = () => {  
   // const press_handle = () => {
   //   console.log('clicked...!')
   // }
