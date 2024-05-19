@@ -9,16 +9,16 @@ function App()
   const [bulbon,setBulbon] = useState(false);
   const [isLoggedIn,setisLoggedIn] = useState(true);
 
-  // if(bulbOn)    
-  // {
-  //   console.log("on");
-  // }
-  // else{
-  //   console.log("off");
+  if(bulbOn)    
+  {
+    console.log("on");
+  }
+  else{
+    console.log("off");
    
-  // }
+  }
 
-  // var arr = ["faraz","Ali","Ahmed","hamza","jaffar"]
+  var arr = ["faraz","Ali","Ahmed","hamza","jaffar"]
 
   var arr = null || ["faraz","Ali","Ahmed","hamza","jaffar"];
 
