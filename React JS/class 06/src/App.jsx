@@ -83,7 +83,7 @@ function App()
             <CMCard title={element.title} description={element.description} imgSrc={element.imgSrc}/>
             </div>
           )
-        })
+        })  
       }
 
        <CMCard title={Data[0].title} description={Data[0].description} imgSrc={Data[0].imgSrc}/>
