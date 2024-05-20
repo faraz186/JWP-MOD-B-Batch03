@@ -13,7 +13,7 @@ let obj = {
     email:"faraz@gmail.com",     
     getName:function(){  
         return  obj.name;
-    },   
+    },     
     address:{
         street:"A",    
         city:"karachi",  
