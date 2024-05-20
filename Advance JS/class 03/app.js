@@ -9,7 +9,7 @@ console.log(obj1);
 
 let obj = {  
     name:"faraz",  
-    age:21,
+    age:21,  
     email:"faraz@gmail.com",     
     getName:function(){  
         return  obj.name;
