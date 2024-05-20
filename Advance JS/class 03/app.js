@@ -16,7 +16,7 @@ let obj = {
     },   
     address:{
         street:"A",  
-        city:"karachi",
+        city:"karachi",  
         country:"Pakistan",
         postalCode:12345    
     }
