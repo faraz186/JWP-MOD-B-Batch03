@@ -15,7 +15,7 @@ let obj = {
         return  obj.name;
     },   
     address:{
-        street:"A",  
+        street:"A",    
         city:"karachi",  
         country:"Pakistan",
         postalCode:12345      
