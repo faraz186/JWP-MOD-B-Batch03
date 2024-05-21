@@ -9,7 +9,7 @@ const Card = () => {
         '4',
         '5',
     ])
-
+   
 
     return <>
     <View>
