@@ -2,16 +2,8 @@ import { StyleSheet, Text, View } from "react-native"
 
 const Styled_Component = () => {
 
-
     return <View style={{flex:1, flexDirection:'row'}}>
-        {/* <View style={styles.container}>
 
-            <Text style={styles.title}>
-                Styled Component
-            </Text>
-
-
-        </View> */}
         <View style={[styles.container_01,styles.common_styles]}>
 
             <Text style={styles.title}>
