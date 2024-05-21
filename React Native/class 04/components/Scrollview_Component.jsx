@@ -2,7 +2,6 @@ import { StyleSheet, View, Text, ScrollView } from "react-native"
 
 const Scrollview_Component = () => {
 
-
     return <ScrollView >
     <View style={styles.container}>
         <Text style={styles.title}>
