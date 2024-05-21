@@ -22,7 +22,7 @@ const Card = () => {
                     {item}
                 </Text>
             })
-        }
+        }   
     </View>
     </>
 
