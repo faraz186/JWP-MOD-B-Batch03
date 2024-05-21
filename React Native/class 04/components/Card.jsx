@@ -5,7 +5,7 @@ const Card = () => {
     const [list, setList] = useState([
         '1',   
         '2',
-        '3',
+        '3', 
         '4',
         '5',
     ])
