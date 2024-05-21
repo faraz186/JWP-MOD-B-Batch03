@@ -18,7 +18,6 @@ const Styled_Component = () => {
                 Styled Component 02
             </Text>
 
-
         </View>
         <View style={[styles.container_03, styles.common_styles]}>
 
