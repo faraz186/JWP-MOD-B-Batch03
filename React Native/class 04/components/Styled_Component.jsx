@@ -69,5 +69,4 @@ const styles = StyleSheet.create({
 
 })
 
-
 export { Styled_Component }
