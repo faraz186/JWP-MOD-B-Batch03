@@ -3,7 +3,7 @@ import { Text, View } from "react-native"
 
 const Card = () => {
     const [list, setList] = useState([
-        '1',
+        '1',   
         '2',
         '3',
         '4',
