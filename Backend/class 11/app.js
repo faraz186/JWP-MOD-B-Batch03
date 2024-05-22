@@ -3,7 +3,7 @@ import express from "express";
 import mongoose from "mongoose";
 const app = express();
 const PORT = process.env.PORT || 8080;
-import cors from "cors";
+import cors from "cors";  
 import route from "./routes/index.js";
 
 app.use(express.json());
