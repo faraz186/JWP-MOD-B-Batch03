@@ -9,7 +9,7 @@ import route from "./routes/index.js";
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({ origin: "*" }));
-app.use(route);
+app.use(route);  
 
 mongoose
   .connect(process.env.MONGODB_URI)
