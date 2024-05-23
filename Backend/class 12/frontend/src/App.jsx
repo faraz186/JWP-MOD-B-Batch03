@@ -88,30 +88,14 @@ function App() {
 
   return (
     <>
-
+      <br />
+      <br />
+      
       <input type="file" onChange={imageHandler} />
-      <br />
-      <br />
-      <br />
+      
       <br />
       <br />
 
-      <input
-        onChange={(e) => setInputValue(e.target.value)}
-        type="text"
-        placeholder="enter value"
-      />
-      <button onClick={addTodoHandler}>ADD TODO</button>
-
-      {post?.map((post) => {
-        return (
-          <div key={post._id}>
-            <p> {post.value}</p>
-            <button onClick={() => editHandler(post._id)}>EDIT</button>
-            <button onClick={() => deleteHandler(post._id)}>DELETE</button>
-          </div>
-        );
-      })}
     </>
   );
 }
