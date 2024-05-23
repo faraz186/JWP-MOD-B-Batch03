@@ -22,7 +22,7 @@ function App() {
     }
   };
 
-  const [post, setPost] = useState([]);
+  const [post, setPost] = useState([]);  
 
   useEffect(() => {
     fetchData();
