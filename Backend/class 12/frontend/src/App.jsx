@@ -19,7 +19,7 @@ function App() {
       console.log("response", response)
 
     } catch (error) {
-      console.log("errpr", error.message)
+      console.log("error", error.message)
     }
 
 
