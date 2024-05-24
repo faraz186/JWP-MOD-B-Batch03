@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       {/* <h1>COUNTER : {counterValue} </h1>
-      <button
+      <button  
         onClick={() => {
           dispatch(addCounter("JAFFAR"));
         }}
