@@ -10,21 +10,8 @@ import { Route, Routes } from "react-router-dom";
 import Cart from "./pages/Cart";
 
 function App() {
-  // const { counterValue } = useSelector((state) => state.counterReducer);
-  // console.log("selector", counterValue);
-  // const dispatch = useDispatch();
-  
   return (
-    <>
-      {/* <h1>COUNTER : {counterValue} </h1>
-      <button  
-        onClick={() => {
-          dispatch(addCounter("JAFFAR"));
-        }}
-      >
-        ADD COUNTER
-      </button> */}
-      
+    <> 
       <Routes>
         <Route index element={<Home />} />
         <Route path="/cart" element={<Cart />} />
