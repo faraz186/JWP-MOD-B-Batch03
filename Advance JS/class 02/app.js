@@ -36,7 +36,7 @@ console.log(city);
 console.log(postaCode);
 console.log(address);
 
-
+    
 console.log(obj.address.city)   
 
 
