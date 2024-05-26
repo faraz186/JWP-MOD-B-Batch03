@@ -11,7 +11,7 @@ var a = "Muhammad";
 function abc() {
     var a = "faraz";
     console.log(a)
-}
+}    
 abc()
 
 
