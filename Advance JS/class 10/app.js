@@ -13,7 +13,7 @@ function foo() {
 foo()
 console.log(userName)
 
-
+  
 // let => local scope
 
 var userName = "Jaffar"
