@@ -89,9 +89,6 @@ const foo = _ => {
 
 foo(50)
 
-
-
-
 const add = (num1, num2) => num1 + num2
 
 const result = add(80, 20)
