@@ -7,7 +7,7 @@
 
 var userName = "ali";
 function foo() {
-    userName = "Jaffar Aman"
+    userName = "Jaffar Aman"  
 
 }
 foo()
