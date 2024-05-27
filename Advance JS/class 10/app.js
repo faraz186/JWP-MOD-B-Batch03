@@ -17,7 +17,7 @@ console.log(userName)
 // let => local scope
 
 var userName = "Jaffar"
-var userName = "Ali"
+var userName = "Ali"  
 console.log(userName)
 let userName = "Jaffar"
 userName = "Jaffar Aman"
