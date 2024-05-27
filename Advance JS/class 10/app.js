@@ -36,7 +36,7 @@ console.log(userName)
 
 
 // var ==> function scope
-
+  
 function foo() {
     let userName = "Jaffar Aman"
 }
