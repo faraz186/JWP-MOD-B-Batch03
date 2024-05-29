@@ -5,7 +5,6 @@ console.log(userName)
 userName = "jaffar aman"   
 console.log(userName)
   
-
 var age = "18"  //string
 
 if (age == 18) {  
