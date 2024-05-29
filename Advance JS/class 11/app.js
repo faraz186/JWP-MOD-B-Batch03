@@ -4,7 +4,7 @@ var userName ="jawan pakistan";
 console.log(userName)    
 userName = "jaffar aman"   
 console.log(userName)
-
+  
 
 var age = "18"  //string
 
