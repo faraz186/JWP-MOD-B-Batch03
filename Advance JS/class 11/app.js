@@ -19,7 +19,7 @@ if (!bool) {
     console.log("false")
 } else {
     console.log("true")
-
+  
 }
 
 // var
