@@ -11,7 +11,7 @@ if (age == 18) {
     console.log("allow")
 } else {  
     console.log("NOt Allow")
-}
+}  
 
 var bool = false
 
