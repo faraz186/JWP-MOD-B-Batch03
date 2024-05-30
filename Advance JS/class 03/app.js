@@ -4,7 +4,7 @@ let obj1 = {
     email:"faraz@gmail.com",
 }            
        
- console.log("hasOwnProperty" in obj1)  
+console.log("hasOwnProperty" in obj1)  
 console.log(obj1);   
   
 let obj = {  
