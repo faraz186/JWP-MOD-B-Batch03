@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { Image, Text, TouchableOpacity, View } from "react-native"
 import { launchCamera, launchImageLibrary } from "react-native-image-picker"
-    
+      
 export const Camera_Gallery_Component = () => {
 
     const [captured_image, setCaptured_image] = useState([])
