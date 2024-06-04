@@ -5,7 +5,7 @@ import { launchCamera, launchImageLibrary } from "react-native-image-picker"
 export const Camera_Gallery_Component = () => {
 
     const [captured_image, setCaptured_image] = useState([])
-
+  
     const open_camera_handle = async () => {
 
         const result = await launchCamera({includeBase64:false, mediaType:'photo'})
