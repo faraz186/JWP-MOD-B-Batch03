@@ -19,8 +19,6 @@ export const Camera_Gallery_Component = () => {
     }
 
 
-
-
     const open_gallery_handle = async () => {
 
         const result = await launchImageLibrary({includeBase64:false, mediaType:'photo',selectionLimit:2 });
