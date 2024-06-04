@@ -13,7 +13,7 @@ export const Camera_Gallery_Component = () => {
         if(!result.didCancel){
             const image_uri = result.assets[0].uri
             setCaptured_image(image_uri)
-        }
+        }  
 
         console.log(result)
     }
