@@ -1,6 +1,6 @@
 let arr = ["faraz","ali","aryan",[12,100,false,[true],[52,"ahmed"]],["hamza",false,15],true];  
       
-let [val1,val2,val3,val4,val5] = arr;
+let [val1,val2,val3,val4,val5] = arr;  
     
 let [val1,val2,val3] = arr[4]   
 
