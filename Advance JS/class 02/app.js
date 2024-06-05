@@ -13,7 +13,7 @@ console.log(val1)
 console.log(val2)    
 console.log(val3)
 console.log(val4)    
-console.log(val5)
+console.log(val5)  
 console.log(val6)
 
 let obj = {
