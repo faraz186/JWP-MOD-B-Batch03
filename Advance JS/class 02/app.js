@@ -27,7 +27,7 @@ let obj = {
     }
 }
 
-let {name:myname,email,age,address} =obj;
+let {name:myname,email,age,address} =obj;  
 
 let {street,city,postaCode} = obj.address
 
