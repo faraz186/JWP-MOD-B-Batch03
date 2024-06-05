@@ -61,6 +61,14 @@ const nestedObject = {
       }
     },
     key4: "value4",
+    key5: "value5",
+    key6:{
+      subKey1: "subValue1",
+      subKey2: "subValue2",
+      subKey3:{
+        subSubKey1: "subSubValue1",
+      }
+  }
   };
 
 let {key1,key2,key3,key4} = nestedObject;
