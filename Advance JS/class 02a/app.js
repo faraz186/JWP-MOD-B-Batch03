@@ -15,7 +15,7 @@ var mobiles = {
           },   
           front: 10,
         },
-        brand:"iphone",
+        brand:"iphone",  
         battery: 5000,
         operatingSystem: "Android 13",
         specialFeatures: ["S Pen support", "Ultrasonic fingerprint sensor"],
