@@ -1,5 +1,5 @@
 var mobiles = {
-    iphone: {
+    iphone: {  
       iphone7: {
         processor: "Snapdragon 8 Gen 2",
         memory: {
