@@ -224,7 +224,7 @@ var mobiles = {
           resolution: "4200 x 1540",
           panelType: "AMOLED",
           refreshRate: 100,
-        },
+        },  
         brand:"xiomi",
 
         processor: "Snapdragon 8 Gen 6",
