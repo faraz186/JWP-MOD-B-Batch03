@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "965627448219",
+    "project_id": "awesome-project-native-a2577",
+    "storage_bucket": "awesome-project-native-a2577.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965627448219:android:93f1ccdcd69f5e47b32f3e",
+        "android_client_info": {
+          "package_name": "com.awesomepro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0fHgfbrlBu3xJ2tWtI6klJ5bcpZG06nQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
