@@ -173,7 +173,7 @@ function getValue(){
     }
     arr.push(obj)
 
-    localStorage.setItem("userName",JSON.stringify(arr));
+    localStorage.setItem("userName",JSON.stringify(arr));  
 
     input.value = "";
 }
