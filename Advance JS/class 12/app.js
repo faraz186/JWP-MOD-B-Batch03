@@ -60,11 +60,11 @@ console.log(arr[2])
 
 console.log(a,b,c,d , e,f)
 
-const a = "jaffar"
+const a = "faraz"
 console.log(a)
 
 const {name , age , gender , subjects} = {
-    name: "jaffar",
+    name: "faraz",
     age: 22,
     gender: "male",
     subjects:["html" , "css"]
@@ -91,7 +91,7 @@ for (var  value of array) {
 
 
 const obj = {
-    name: "jaffar",
+    name: "faraz",
     age: 22,
     gender: "male",
     subjects: ["html", "css"]
