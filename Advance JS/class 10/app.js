@@ -7,7 +7,7 @@
   
 var userName = "ali";
 function foo() {
-    userName = "Jaffar Aman"  
+    userName = "Muhammad Faraz"  
 
 }
 foo()
@@ -16,15 +16,15 @@ console.log(userName)
   
 // let => local scope
 
-var userName = "Jaffar"
+var userName = "faraz"
 var userName = "Ali"  
 console.log(userName)
-let userName = "Jaffar"
-userName = "Jaffar Aman"
+let userName = "faraz"
+userName = "Muhammad Faraz"
 
 let userName = "Ali"
 
-const userName = "Jaffar aman"
+const userName = "Muhammad Faraz"
 // /userName = "ALI"
 const userName = "ali"
 console.log(userName)
@@ -38,7 +38,7 @@ console.log(userName)
 // var ==> function scope
   
 function foo() {
-    let userName = "Jaffar Aman"
+    let userName = "Muhammad Faraz"
 }
 foo()
 console.log(userName)
@@ -46,7 +46,7 @@ console.log(userName)
 
 
 if (true) {
-    let userName = "jaffar"
+    let userName = "faraz"
 }
 
 console.log(userName)
@@ -63,7 +63,7 @@ console.log(userName)
 
 
 console.log(userName)
-let userName = "Jaffar"
+let userName = "faraz"
 
 
 // Arrow function
@@ -72,7 +72,7 @@ function foo(num1, num2) {
     console.log("hello", num1, num2)
 
     return {
-        name: "Ali"
+        name: "ahmed"
     }
 }
 
@@ -103,7 +103,7 @@ const foo = ()=>{
 }
 
 const obj = {
-    userName: "Jaffar",
+    userName: "faraz",
     getName: function () {
         console.log(this)
         // return userName
@@ -111,7 +111,7 @@ const obj = {
 }
 
 const obj2 = {
-    userName: "Jaffar Aman",
+    userName: "Muhammad Faraz",
     getName: () => {
         console.log(this)
         // return userName
