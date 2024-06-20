@@ -13,7 +13,7 @@ function getValue(){
     }
     let obj = {
         name:input.value
-    }
+    }  
     arr.push(obj)
 
     localStorage.setItem("UserName",JSON.stringify(arr))
