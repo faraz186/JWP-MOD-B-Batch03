@@ -7,7 +7,7 @@ function getValue(){
 
     console.log(arr)
     
-    if(!arr)
+    if(!arr)  
     {
         arr = []
     }
