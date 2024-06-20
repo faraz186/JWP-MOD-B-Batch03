@@ -3,7 +3,7 @@ function getValue(){
 
     var getStorageData = localStorage.getItem("UserName");  
 
-    var arr = JSON.parse(getStorageData);
+    var arr = JSON.parse(getStorageData);  
 
     console.log(arr)
     
