@@ -1,4 +1,4 @@
-function getValue(){
+function getValue(){  
     let input = document.getElementById("name");
 
     var getStorageData = localStorage.getItem("UserName");
