@@ -16,5 +16,5 @@ function getValue(){
     }  
     arr.push(obj)
 
-    localStorage.setItem("UserName",JSON.stringify(arr))
+    localStorage.setItem("UserName",JSON.stringify(arr))  
 }
