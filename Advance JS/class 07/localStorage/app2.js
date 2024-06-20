@@ -1,7 +1,7 @@
 function getValue(){  
     let input = document.getElementById("name");
 
-    var getStorageData = localStorage.getItem("UserName");
+    var getStorageData = localStorage.getItem("UserName");  
 
     var arr = JSON.parse(getStorageData);
 
