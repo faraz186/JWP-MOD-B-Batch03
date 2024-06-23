@@ -59,7 +59,7 @@ var b = str
 
 str = "Jaffar"
 console.log("str", str)
-console.log("b", b)
+console.log("b", b)    
 
 
 const arr = [1, 2, 3]   // reference = 420
