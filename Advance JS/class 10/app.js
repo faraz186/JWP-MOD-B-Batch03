@@ -1,7 +1,7 @@
 // variables
      
 // var  ==> ES5  
-// let  ==> ES6    
+// let  ==> ES6      
 // const ==> ES6  
 
   
