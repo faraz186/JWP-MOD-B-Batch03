@@ -22,7 +22,7 @@ console.log(userName)
 let userName = "faraz"
 userName = "Muhammad Faraz"
 
-let userName = "Ali"
+let userName = "Ali"   
 
 const userName = "Muhammad Faraz"
 // /userName = "ALI"
