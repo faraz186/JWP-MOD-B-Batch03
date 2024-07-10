@@ -3,7 +3,6 @@ import React from 'react'
 import { Async_Storage_Component } from './components/Async_Storage_Component'
 import { Image_Picker_Component } from './components/Image_Picker_Component'
 import { Geo_Location_Component } from './components/Geo_Location_Component'
-// import { NativeBaseProvider } from "native-base";
 import { Nativebase_Components } from './components/Nativebase_Components'
 import { Firebase_Authentication_Component } from './components/Firebase_Authentication_Component'
 const App = () => {
