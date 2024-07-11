@@ -1,7 +1,7 @@
 import AppRouter from './config/router/approuter'
 import { Box } from "@mui/material";
      
-function App() 
+function App()   
 {
   return (
     <Box>
