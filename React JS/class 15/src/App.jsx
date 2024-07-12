@@ -1,4 +1,4 @@
-import {   
+import {      
   createUserWithEmailAndPassword,
   signInWithPopup,
   GoogleAuthProvider,
