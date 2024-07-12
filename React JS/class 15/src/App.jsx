@@ -11,7 +11,7 @@ const App = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  // Sign up Auth
+  // Sign up Auth   
 
   const signUpHandler = async (e) => {
     try {
