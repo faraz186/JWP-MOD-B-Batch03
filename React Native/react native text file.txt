@@ -7,7 +7,7 @@ Step 2: Configure an Android Virtual Device
 Set up Android Studio
 
 Create an empty Android Studio project
-Create an Android Virtual Device: Manage AVD → Create
+Create an Android Virtual Device: Manage AVD → Create   
 Boot your Android Virtual Device
 
 Step 3: Jump into Command Line
