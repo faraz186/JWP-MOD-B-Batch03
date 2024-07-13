@@ -18,7 +18,7 @@ cd /path/to/code
 Install React Native globally:
 npm install -g react-native-cli
 
-Create a new React Native project (Note: this step may take a while):
+Create a new React Native project (Note: this step may take a while):   
 
 react-native init AwesomeProject
 
