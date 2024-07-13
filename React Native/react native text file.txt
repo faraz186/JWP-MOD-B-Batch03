@@ -10,7 +10,7 @@ Create an empty Android Studio project
 Create an Android Virtual Device: Manage AVD → Create   
 Boot your Android Virtual Device
 
-Step 3: Jump into Command Line
+Step 3: Jump into Command Line  
 
 Open command prompt, jump into bash, and navigate to where you want your project to live
 bash
