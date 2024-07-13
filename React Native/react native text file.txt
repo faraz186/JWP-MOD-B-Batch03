@@ -1,6 +1,6 @@
 Due to a custom Android SDK installation location I also had to set an extra environment variable:
 
-Command: ANDROID_HOME: C:\path\to\AndroidSDK
+Command: ANDROID_HOME: C:\path\to\AndroidSDK    
 
 Step 2: Configure an Android Virtual Device
 
