@@ -14,7 +14,7 @@ Step 3: Jump into Command Line
 
 Open command prompt, jump into bash, and navigate to where you want your project to live
 bash
-cd /path/to/code
+cd /path/to/code  
 Install React Native globally:
 npm install -g react-native-cli
 
