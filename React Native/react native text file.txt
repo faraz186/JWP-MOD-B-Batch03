@@ -2,7 +2,7 @@ Due to a custom Android SDK installation location I also had to set an extra env
 
 Command: ANDROID_HOME: C:\path\to\AndroidSDK    
 
-Step 2: Configure an Android Virtual Device
+Step 2: Configure an Android Virtual Device  
 
 Set up Android Studio
 
