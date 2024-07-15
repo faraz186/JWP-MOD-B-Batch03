@@ -5,7 +5,7 @@ import Table from "./components/Table";
 import Card from "./components/card";
 import "./App.css";
 
-function App() {
+function App() {   
   let seletData = [   
     {
       select: "MOBILE",
