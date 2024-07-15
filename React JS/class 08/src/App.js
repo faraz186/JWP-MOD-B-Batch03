@@ -6,7 +6,7 @@ import Card from "./components/card";
 import "./App.css";
 
 function App() {
-  let seletData = [
+  let seletData = [   
     {
       select: "MOBILE",
       option1: "IPHONE",
