@@ -34,7 +34,7 @@ for(var  i = 1 ; i <= 10 ; i++){
 var fruit1 = "apple";
 var fruit2 = "mango";
 var fruit3 = "peach";
-
+    
 var fruits = ["apple", "mango", "kuch bhi", "peach",]
 console.log(fruits[1])
 
