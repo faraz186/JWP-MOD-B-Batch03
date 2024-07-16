@@ -2,7 +2,7 @@ console.log("HELLO WORLD")
     
 var userName ="jawan pakistan";
 console.log(userName)      
-userName = "jaffar aman"   
+userName = "Muhammad Faraz"   
 console.log(userName)
   
 var age = "18"  //string
