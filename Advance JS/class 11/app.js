@@ -21,7 +21,7 @@ if (!bool) {
     console.log("true")
   
 }
-
+   
 // var
 // condition
 
