@@ -7,11 +7,13 @@ import { Nativebase_Components } from './components/Nativebase_Components'
 import { Firebase_Authentication_Component } from './components/Firebase_Authentication_Component'
 const App = () => {
   return (   
-    // <NativeBaseProvider>
+    <NativeBaseProvider>
+      
     <View style={{flex:1}}>
       <Text style={{textAlign:'center', fontWeight:'bold', fontSize:20 }}>REACT NATIVE APP</Text>
 
       <Async_Storage_Component />
+      
       <Image_Picker_Component />   
 
       <Geo_Location_Component />
@@ -20,7 +22,8 @@ const App = () => {
 
       <Firebase_Authentication_Component />
     </View>
-    // </NativeBaseProvider>
+    
+    </NativeBaseProvider>
   )
 }
 
