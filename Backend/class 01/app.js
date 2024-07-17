@@ -7,7 +7,7 @@ app.get("/helloworld", (request, response) => {
     name: "Faraz",
   });
 });   
-
+    
 app.get("/user", (request, response) => {
   response.send({
     firstName: "Ubaid",
