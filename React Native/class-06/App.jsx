@@ -9,14 +9,14 @@ const App = () => {
   return (   
     // <NativeBaseProvider>
     <View style={{flex:1}}>
-      {/* <Text style={{textAlign:'center', fontWeight:'bold', fontSize:20 }}>REACT NATIVE APP</Text> */}
+      <Text style={{textAlign:'center', fontWeight:'bold', fontSize:20 }}>REACT NATIVE APP</Text>
 
-      {/* <Async_Storage_Component /> */}
-      {/* <Image_Picker_Component /> */}   
+      <Async_Storage_Component />
+      <Image_Picker_Component />   
 
-      {/* <Geo_Location_Component /> */}
+      <Geo_Location_Component />
 
-      {/* <Nativebase_Components /> */}
+      <Nativebase_Components />
 
       <Firebase_Authentication_Component />
     </View>
