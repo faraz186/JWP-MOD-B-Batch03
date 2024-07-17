@@ -1,5 +1,5 @@
 import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import React from 'react'   
 import { Async_Storage_Component } from './components/Async_Storage_Component'
 import { Image_Picker_Component } from './components/Image_Picker_Component'
 import { Geo_Location_Component } from './components/Geo_Location_Component'   
