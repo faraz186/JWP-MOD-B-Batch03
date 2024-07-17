@@ -12,7 +12,7 @@ const App = () => {
       {/* <Text style={{textAlign:'center', fontWeight:'bold', fontSize:20 }}>REACT NATIVE APP</Text> */}
 
       {/* <Async_Storage_Component /> */}
-      {/* <Image_Picker_Component /> */}
+      {/* <Image_Picker_Component /> */}   
 
       {/* <Geo_Location_Component /> */}
 
