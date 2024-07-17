@@ -10,7 +10,7 @@ const App = () => {
     <NativeBaseProvider>
       
     <View style={{flex:1}}>
-      <Text style={{textAlign:'center', fontWeight:'bold', fontSize:20 }}>REACT NATIVE APP</Text>
+      <Text style={{textAlign:'center', fontWeight:'bold', fontSize:20 }}>REACT NATIVE APP</Text>   
    
       <Async_Storage_Component />
       
