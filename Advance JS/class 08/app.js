@@ -23,7 +23,7 @@ console.log(std1)
 let check = ()=>{
     console.log("Check...")
 }   
-
+   
 export default check
   
 function changeColor(elem){
