@@ -1,0 +1,86 @@
+{
+  "usersArr": [
+    {
+      "id": 1,
+      "name": "Mrs. Dennis Schulist",
+      "username": "Leopoldo_Corkery",
+      "email": "Karley_Dach@jasper.info",
+      "phone": "1-477-935-8478 x6430",
+      "website": "ola.org"
+    },
+    {
+      "id": 2,
+      "name": "Kurtis Weissnat",
+      "username": "Elwyn.Skiles",
+      "email": "Telly.Hoeger@billy.biz",
+      "phone": "210.067.6132",
+      "website": "elvis.io"
+    },
+    {
+      "id": 3,
+      "name": "Nicholas Runolfsdottir V",
+      "username": "Maxime_Nienow",
+      "email": "Sherwood@rosamond.me",
+      "phone": "586.493.6943 x140",
+      "website": "jacynthe.com"
+    },
+    {
+      "id": 4,
+      "name": "Glenna Reichert",
+      "username": "Delphine",
+      "email": "Chaim_McDermott@dana.io",
+      "phone": "(775)976-6794 x41206",
+      "website": "conrad.com"
+    },
+    {
+      "id": 5,
+      "name": "Clementina DuBuque",
+      "username": "Moriah.Stanton",
+      "email": "Rey.Padberg@karina.biz",
+      "phone": "024-648-3804",
+      "website": "ambrose.net"
+    },
+    {
+      "name": "Muhammad Faraz",
+      "username": "mFaraz2001",
+      "email": "faraz786@gmail.com",
+      "phone": "0309-1231718",
+      "id": 6
+    },
+    {
+      "name": "John Smith",
+      "username": "john_smith",
+      "email": "john@gmail.com",
+      "phone": "11-578-5326-10",
+      "id": 7
+    },
+    {
+      "name": "Tony Stark",
+      "username": "tony_stark",
+      "email": "tony12@gmail.com",
+      "phone": "91-457-123-5400",
+      "id": 8
+    },
+    {
+      "name": "Scarlet Witch",
+      "username": "Scarlet ",
+      "email": "scarlet@gmail.com",
+      "phone": "41-859-220-743",
+      "id": 9
+    },
+    {
+      "name": "Bruce Banner",
+      "username": "burce_12",
+      "email": "Bruce@gmail.com",
+      "phone": "75-850-960-026",
+      "id": 10
+    },
+    {
+      "name": "John Cena",
+      "username": "john_cena",
+      "email": "johnCena@gmail.com",
+      "phone": "92-0958-5123-51",
+      "id": 11
+    }
+  ]
+}
