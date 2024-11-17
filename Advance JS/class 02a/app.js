@@ -647,6 +647,20 @@ function selectBrand() {
 }
 
 function selectModel() {
+  var div = document.getElementById("card");
+
   console.log(brand.value, model.value);
+
   console.log(mobiles[brand.value][model.value]);
+
+  var obj = mobiles[brand.value][model.value];
+
+  div.innerHTML += `<div class="m-2 card border-success mb-3" style="max-width: 18rem;">
+  <div class="card-header bg-transparent border-success">${model.value}</div>
+  <div class="card-body text-success">
+    <h5 class="card-title">${obj.processor}</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+  <div class="card-footer bg-transparent border-success">${obj.operatingSystem}</div>
+</div>`;
 }
