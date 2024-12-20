@@ -1,4 +1,4 @@
-let obj = {
+let obj = {   
     name:"faraz",           
     age:22,                     
     address:{                   
