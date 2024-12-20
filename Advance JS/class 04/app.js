@@ -4,7 +4,7 @@ let obj = {
     address:{                   
         city:"karachi"        
     }         
-}   
+}     
        
 console.log(Object.keys(obj))
 
